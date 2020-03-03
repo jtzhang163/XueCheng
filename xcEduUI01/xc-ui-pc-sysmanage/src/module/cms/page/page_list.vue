@@ -58,6 +58,10 @@
         this.params.page = page;
         this.query();
       }
+    },
+    mounted(){
+      //当DOM页面全部加载完成时查询
+      this.query();
     }
   }
 </script>
