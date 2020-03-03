@@ -19,6 +19,7 @@ module.exports = {
         target: 'http://127.0.0.1:7777'
 
       },
+      //proxyTable代理配置
       '/api/cms': {
         target: 'http://localhost:31001',
         pathRewrite: {
