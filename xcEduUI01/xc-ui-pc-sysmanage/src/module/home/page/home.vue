@@ -67,7 +67,7 @@
   import PHead from '@/base/components/head.vue';
   import utilApi from '../../../common/utils';
   export default {
-    components:{
+    components: {
       PHead
     },
     data() {
@@ -109,7 +109,7 @@
 
     },
     created() {
-console.log(this.$router.options.routes)
+      console.log(this.$router.options.routes)
     }
   }
 
