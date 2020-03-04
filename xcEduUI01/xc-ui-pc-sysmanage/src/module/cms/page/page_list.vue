@@ -41,6 +41,13 @@
       </el-table-column>
       <el-table-column prop="pageCreateTime" label="创建时间" width="180" >
       </el-table-column>
+      <el-table-column label="操作" width="80">
+        <template slot-scope="page">
+          <el-button size="small" type="text"
+          @click="edit(page.row.pageId)">编辑
+          </el-button>
+        </template>
+      </el-table-column>
     </el-table>
 
     <el-pagination
@@ -81,6 +88,9 @@
       changePages: function (page) {
         this.params.page = page;
         this.query();
+      },
+      edit: function (pageId) {
+        this.$router.push({path: '/cms/page/edit/' + pageId});
       }
     },
 
