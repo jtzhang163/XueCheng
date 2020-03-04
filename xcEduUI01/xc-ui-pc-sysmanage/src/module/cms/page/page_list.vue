@@ -1,6 +1,21 @@
 <template>
   <div>
-    <el-button type="primary" @click="query">查询</el-button>
+
+
+    <!‐‐查询表单‐‐>
+    <el-form :model="params">
+      <el-select v-model="params.siteId" placeholder="请选择站点">
+        <el-option
+          v-for="item in siteList"
+          :key="item.siteId"
+          :label="item.siteName"
+          :value="item.siteId">
+        </el-option>
+      </el-select>
+      页面别名：<el-input v-model="params.pageAliase" style="width: 100px"></el-input>
+      <el-button type="primary" v-on:click="query" size="small">查询</el-button>
+    </el-form>
+    <!--<el-button type="primary" @click="query">查询</el-button>-->
     <!--编写页面静态部分，即view部分-->
     <el-table
       :data="list"
@@ -39,9 +54,12 @@
   export default {
     data() {
       return {
+        siteList: [],
         list: [],
         total: 0,
         params: {
+          siteId:'',
+          pageAliase:'',
           page: 1,
           size: 10
         }
@@ -49,7 +67,7 @@
     },
     methods: {
       query: function () {
-        cmsApi.page_list(this.params.page, this.params.size).then((res) => {
+        cmsApi.page_list(this.params.page, this.params.size, this.params).then((res) => {
           this.list = res.queryResult.list;
           this.total = res.queryResult.total;
         })
@@ -59,9 +77,20 @@
         this.query();
       }
     },
-    mounted(){
+    mounted() {
       //当DOM页面全部加载完成时查询
       this.query();
+
+      this.siteList = [
+        {
+          siteId: "5a751fab6abb5044e0d19ea1",
+          siteName: '门户主站'
+        },
+        {
+          siteId: '1123334',
+          siteName: '测试站'
+        }
+      ]
     }
   }
 </script>
