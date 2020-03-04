@@ -18,6 +18,7 @@ public class CmsPageController implements CmsPageControllerApi {
     @Autowired
     private CmsPageService cmsPageService;
 
+    @Override
     @GetMapping("/list/{page}/{size}")
     public QueryResponseResult findList(@PathVariable("page") int page, @PathVariable("size") int size,
                                         QueryPageRequest queryPageRequest) {
@@ -29,5 +30,17 @@ public class CmsPageController implements CmsPageControllerApi {
     @PostMapping("/add")
     public CmsPageResult add(@RequestBody CmsPage cmsPage) {
         return cmsPageService.add(cmsPage);
+    }
+
+    @Override
+    @GetMapping("/get/{id}")
+    public CmsPage findById(@PathVariable("id") String id) {
+        return cmsPageService.findById(id);
+    }
+
+    @Override
+    @PutMapping("/edit/{id}")
+    public CmsPageResult edit(@PathVariable("id") String id, @RequestBody CmsPage cmsPage) {
+        return cmsPageService.edit(id, cmsPage);
     }
 }

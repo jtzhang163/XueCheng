@@ -7,10 +7,13 @@ import com.xuecheng.framework.model.response.CommonCode;
 import com.xuecheng.framework.model.response.QueryResponseResult;
 import com.xuecheng.framework.model.response.QueryResult;
 import com.xuecheng.manage_cms.dao.CmsPageRepository;
+import lombok.experimental.var;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.*;
 import org.springframework.stereotype.Service;
+
+import java.util.Optional;
 
 @Service
 public class CmsPageService {
@@ -66,6 +69,41 @@ public class CmsPageService {
             return new CmsPageResult(CommonCode.SUCCESS, save);
         }
 
+        return new CmsPageResult(CommonCode.FAIL, null);
+    }
+
+    public CmsPage findById(String id) {
+        Optional<CmsPage> opitonal = cmsPageRepository.findById(id);
+        if (opitonal.isPresent()) {
+            return opitonal.get();
+        }
+        return null;
+    }
+
+    public CmsPageResult edit(String id, CmsPage cmsPage) {
+        CmsPage one = this.findById(id);
+        if (one != null) {
+
+            one.setTemplateId(cmsPage.getTemplateId());
+            //更新所属站点
+            one.setSiteId(cmsPage.getSiteId());
+            //更新页面别名
+            one.setPageAliase(cmsPage.getPageAliase());
+            //更新页面名称
+            one.setPageName(cmsPage.getPageName());
+            //更新访问路径
+            one.setPageWebPath(cmsPage.getPageWebPath());
+            //更新物理路径
+            one.setPagePhysicalPath(cmsPage.getPagePhysicalPath());
+            //执行更新
+            CmsPage save = cmsPageRepository.save(one);
+            if (save != null) {
+                //返回成功
+                CmsPageResult cmsPageResult = new CmsPageResult(CommonCode.SUCCESS, save);
+                return cmsPageResult;
+            }
+        }
+        //返回失败
         return new CmsPageResult(CommonCode.FAIL, null);
     }
 }
