@@ -19,14 +19,20 @@ export const page_add = (params) => {
 }
 
 
-//查询某个页面
+//查看页面详情
 export const page_get = (id) => {
   return http.requestQuickGet(apiUrl + '/cms/page/get/'+ id);
 }
 
 
-//编辑某个页面
+//编辑页面
 export const page_edit = (id, params) => {
   return http.requestPut(apiUrl + '/cms/page/edit/'+ id, params);
+}
+
+
+//删除页面
+export const page_del = (id) => {
+  return http.requestDelete(apiUrl + '/cms/page/del/'+ id);
 }
 
