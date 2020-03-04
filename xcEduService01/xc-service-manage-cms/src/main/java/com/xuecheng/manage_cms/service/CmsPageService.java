@@ -2,6 +2,7 @@ package com.xuecheng.manage_cms.service;
 
 import com.xuecheng.framework.domain.cms.CmsPage;
 import com.xuecheng.framework.domain.cms.request.QueryPageRequest;
+import com.xuecheng.framework.domain.cms.response.CmsPageResult;
 import com.xuecheng.framework.model.response.CommonCode;
 import com.xuecheng.framework.model.response.QueryResponseResult;
 import com.xuecheng.framework.model.response.QueryResult;
@@ -32,16 +33,16 @@ public class CmsPageService {
 
         CmsPage cmsPage = new CmsPage();
 
-        if(StringUtils.isNoneEmpty(queryPageRequest.getPageAliase())){
+        if (StringUtils.isNoneEmpty(queryPageRequest.getPageAliase())) {
             cmsPage.setPageAliase(queryPageRequest.getPageAliase());
         }
 
-        if(StringUtils.isNoneEmpty(queryPageRequest.getSiteId())){
+        if (StringUtils.isNoneEmpty(queryPageRequest.getSiteId())) {
             cmsPage.setSiteId(queryPageRequest.getSiteId());
         }
 
         ExampleMatcher matcher = ExampleMatcher.matching()
-                .withMatcher("pageAliase",ExampleMatcher.GenericPropertyMatchers.contains());
+                .withMatcher("pageAliase", ExampleMatcher.GenericPropertyMatchers.contains());
 
         Example<CmsPage> example = Example.of(cmsPage, matcher);
 
@@ -53,6 +54,18 @@ public class CmsPageService {
         cmsPageQueryResult.setList(all.getContent());
         cmsPageQueryResult.setTotal(all.getTotalElements());
         //返回结果
-        return new QueryResponseResult(CommonCode.SUCCESS,cmsPageQueryResult);
+        return new QueryResponseResult(CommonCode.SUCCESS, cmsPageQueryResult);
+    }
+
+    public CmsPageResult add(CmsPage cmsPage) {
+        //校验唯一性
+        CmsPage cmsPage1 = cmsPageRepository.findByPageNameAndSiteIdAndPageWebPath(cmsPage.getPageName(), cmsPage.getSiteId(), cmsPage.getPageWebPath());
+        if (cmsPage1 == null) {
+            cmsPage.setPageId(null);//让MongoDB自动生成主键
+            CmsPage save = cmsPageRepository.save(cmsPage);
+            return new CmsPageResult(CommonCode.SUCCESS, save);
+        }
+
+        return new CmsPageResult(CommonCode.FAIL, null);
     }
 }
