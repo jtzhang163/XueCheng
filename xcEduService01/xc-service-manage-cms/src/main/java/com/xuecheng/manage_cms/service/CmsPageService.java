@@ -2,13 +2,12 @@ package com.xuecheng.manage_cms.service;
 
 import com.xuecheng.framework.domain.cms.CmsPage;
 import com.xuecheng.framework.domain.cms.request.QueryPageRequest;
+import com.xuecheng.framework.domain.cms.response.CmsCode;
 import com.xuecheng.framework.domain.cms.response.CmsPageResult;
-import com.xuecheng.framework.model.response.CommonCode;
-import com.xuecheng.framework.model.response.QueryResponseResult;
-import com.xuecheng.framework.model.response.QueryResult;
-import com.xuecheng.framework.model.response.ResponseResult;
+import com.xuecheng.framework.exception.CustomException;
+import com.xuecheng.framework.exception.ExceptionCast;
+import com.xuecheng.framework.model.response.*;
 import com.xuecheng.manage_cms.dao.CmsPageRepository;
-import lombok.experimental.var;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.*;
@@ -62,15 +61,22 @@ public class CmsPageService {
     }
 
     public CmsPageResult add(CmsPage cmsPage) {
-        //校验唯一性
-        CmsPage cmsPage1 = cmsPageRepository.findByPageNameAndSiteIdAndPageWebPath(cmsPage.getPageName(), cmsPage.getSiteId(), cmsPage.getPageWebPath());
-        if (cmsPage1 == null) {
-            cmsPage.setPageId(null);//让MongoDB自动生成主键
-            CmsPage save = cmsPageRepository.save(cmsPage);
-            return new CmsPageResult(CommonCode.SUCCESS, save);
+
+        if (cmsPage == null) {
+            //throw new CustomException(CommonCode.FAIL);
+            ExceptionCast.cast(CmsCode.CMS_GENERATEHTML_DATAISNULL);
         }
 
-        return new CmsPageResult(CommonCode.FAIL, null);
+        //校验唯一性
+        CmsPage cmsPage1 = cmsPageRepository.findByPageNameAndSiteIdAndPageWebPath(cmsPage.getPageName(), cmsPage.getSiteId(), cmsPage.getPageWebPath());
+        if (cmsPage1 != null) {
+            //页面名称已经存在
+            ExceptionCast.cast(CmsCode.CMS_ADDPAGE_EXISTSNAME);
+        }
+
+        cmsPage.setPageId(null);//让MongoDB自动生成主键
+        CmsPage save = cmsPageRepository.save(cmsPage);
+        return new CmsPageResult(CommonCode.SUCCESS, save);
     }
 
     public CmsPage findById(String id) {

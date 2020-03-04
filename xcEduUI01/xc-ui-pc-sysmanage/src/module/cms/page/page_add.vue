@@ -105,8 +105,8 @@
                     message: '提交成功', type: 'success'
                   });
                   this.$refs['pageForm'].resetFields();
-                } else {
-                  this.$message.error('提交失败');
+                } else if(res.message) {
+                  this.$message.error('提交失败:' + res.message);
                 }
               });
             });
