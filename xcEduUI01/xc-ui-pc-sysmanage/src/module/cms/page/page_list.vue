@@ -1,8 +1,6 @@
 <template>
   <div>
-
-
-    <!‐‐查询表单‐‐>
+    <!--查询表单-->
     <el-form :model="params">
       <el-select v-model="params.siteId" placeholder="请选择站点">
         <el-option
@@ -14,8 +12,16 @@
       </el-select>
       页面别名：<el-input v-model="params.pageAliase" style="width: 100px"></el-input>
       <el-button type="primary" v-on:click="query" size="small">查询</el-button>
+
+      <router-link :to="{path:'/cms/page/add', query:{
+          page:this.params.page,
+          siteId:this.params.siteId,
+      }}">
+        <el-button type="primary" @click="query">新增</el-button>
+      </router-link>
+
     </el-form>
-    <!--<el-button type="primary" @click="query">查询</el-button>-->
+
     <!--编写页面静态部分，即view部分-->
     <el-table
       :data="list"
@@ -77,6 +83,12 @@
         this.query();
       }
     },
+
+    created() {
+      this.params.page = Number.parseInt(this.$route.query.page || 1);
+      this.params.siteId = this.$route.query.siteId;
+    },
+
     mounted() {
       //当DOM页面全部加载完成时查询
       this.query();
