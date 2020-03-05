@@ -32,7 +32,10 @@
     <el-input v-model="pageForm.pageWebPath" auto-complete="off" ></el-input>
     </el-form-item>
     <el-form-item label="物理路径" prop="pagePhysicalPath">
-    <el-input v-model="pageForm.pagePhysicalPath" auto-complete="off" ></el-input>
+      <el-input v-model="pageForm.pagePhysicalPath" auto-complete="off" ></el-input>
+    </el-form-item>
+    <el-form-item label="数据URL" prop="dataUrl">
+      <el-input v-model="pageForm.dataUrl" auto-complete="off" ></el-input>
     </el-form-item>
     <el-form-item label="类型">
     <el-radio-group v-model="pageForm.pageType">
@@ -72,6 +75,7 @@
           pageParameter: '',
           pagePhysicalPath: '',
           pageType: '',
+          dataUrl:'',
           pageCreateTime: new Date()
         },
         pageFormRules: {
