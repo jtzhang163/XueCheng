@@ -19,16 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RabbitmqConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/config/RabbitmqConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CmsPageControllerApi.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/cms/CmsPageControllerApi.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -80,7 +70,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConsumerPostPage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ConsumerPostPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xc-service-manage-cms-client/src/main/java/com/xuecheng/manage_cms_client/mq/ConsumerPostPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
@@ -90,10 +80,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PageService.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PageService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/xc-service-manage-cms-client/src/main/java/com/xuecheng/manage_cms_client/service/PageService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
+            <state relative-caret-position="95">
               <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
               <folding />
             </state>
@@ -125,12 +115,22 @@
       <file leaf-file-name="CmsPageController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/controller/CmsPageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="56" column="38" lean-forward="false" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="38" />
+            <state relative-caret-position="154">
+              <caret line="53" column="13" lean-forward="true" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
               <folding>
                 <element signature="e#1840#1841#0" expanded="true" />
                 <element signature="e#1890#1891#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SocketInputStream.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../../jdk-1.8.0/src.zip!/java/net/SocketInputStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="93" column="23" lean-forward="false" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -871,8 +871,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Spring Boot.ManageCmsApplication" />
-        <item index="1" class="java.lang.String" itemvalue="Spring Boot.ManageCmsClientApplication" />
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.ManageCmsClientApplication" />
+        <item index="1" class="java.lang.String" itemvalue="Spring Boot.ManageCmsApplication" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.CmsPageServiceTest.testGetPageHtml" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.CmsPageRepositoryTest.testFindAll" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.CmsPageRepositoryTest.testFindAllByExample" />
@@ -915,7 +915,7 @@
       <workItem from="1583423672352" duration="341000" />
       <workItem from="1583453404941" duration="603000" />
       <workItem from="1583504540921" duration="2975000" />
-      <workItem from="1583539574461" duration="9407000" />
+      <workItem from="1583539574461" duration="10855000" />
     </task>
     <servers />
   </component>
@@ -952,7 +952,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77466000" />
+    <option name="totallyTimeSpent" value="78914000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -965,7 +965,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22039473" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
@@ -976,7 +975,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26644737" sideWeight="0.4969743" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44901314" sideWeight="0.4969743" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.49394855" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22039473" sideWeight="0.4969743" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1031,13 +1030,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/xc-framework-common/src/main/java/com/xuecheng/framework/model/response/CommonCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/24.0-jre/guava-24.0-jre.jar!/com/google/common/collect/ImmutableMap.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-722">
@@ -1343,17 +1335,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/controller/CmsPageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="56" column="38" lean-forward="false" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="38" />
-          <folding>
-            <element signature="e#1840#1841#0" expanded="true" />
-            <element signature="e#1890#1891#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.0.3.RELEASE/spring-rabbit-2.0.3.RELEASE.jar!/org/springframework/amqp/rabbit/core/RabbitTemplate.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -1377,14 +1358,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-manage-cms-client/src/main/java/com/xuecheng/manage_cms_client/service/PageService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1427,6 +1400,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="32" column="62" lean-forward="true" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/controller/CmsPageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="53" column="13" lean-forward="true" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+          <folding>
+            <element signature="e#1840#1841#0" expanded="true" />
+            <element signature="e#1890#1891#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../jdk-1.8.0/src.zip!/java/net/SocketInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="93" column="23" lean-forward="false" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-manage-cms-client/src/main/java/com/xuecheng/manage_cms_client/service/PageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding />
         </state>
       </provider>

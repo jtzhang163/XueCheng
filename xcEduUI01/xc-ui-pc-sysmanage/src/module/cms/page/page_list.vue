@@ -52,6 +52,9 @@
           <el-button size="small" type="text"
                      @click="del(page.row.pageId)">删除
           </el-button>
+          <el-button size="small" type="text"
+                     @click="postPage(page.row.pageId)">发布
+          </el-button>
         </template>
       </el-table-column>
     </el-table>
@@ -97,6 +100,19 @@
       },
       preview: function(pageId) {
         window.open('http://www.xuecheng.com:8000/cms/preview/' + pageId);
+      },
+      postPage: function (pageId) {
+        this.$confirm('确认发布页面吗？', '提示', {}).then(() => {
+          cmsApi.page_postPage(pageId).then((res) => {
+            if (res.success) {
+              this.$message.success('发布成功');
+              //刷新页面
+              this.query()
+            } else {
+              this.$message.error('发布失败');
+            }
+          });
+        })
       },
       edit: function (pageId) {
         this.$router.push({path: '/cms/page/edit/' + pageId});
