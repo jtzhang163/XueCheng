@@ -78,7 +78,6 @@
             this.total = res.queryResult.total;
             this.courses = res.queryResult.list;
           }
-
         });
       },
       handleManage: function (id) {

@@ -1,12 +1,19 @@
 package com.xuecheng.manage_course.service;
 
+import com.github.pagehelper.PageHelper;
+import com.xuecheng.framework.domain.cms.request.QueryPageRequest;
 import com.xuecheng.framework.domain.course.CourseBase;
 import com.xuecheng.framework.domain.course.Teachplan;
+import com.xuecheng.framework.domain.course.ext.CourseInfo;
 import com.xuecheng.framework.domain.course.ext.TeachplanNode;
+import com.xuecheng.framework.domain.course.request.CourseListRequest;
 import com.xuecheng.framework.exception.ExceptionCast;
 import com.xuecheng.framework.model.response.CommonCode;
+import com.xuecheng.framework.model.response.QueryResponseResult;
+import com.xuecheng.framework.model.response.QueryResult;
 import com.xuecheng.framework.model.response.ResponseResult;
 import com.xuecheng.manage_course.dao.CourseBaseRepository;
+import com.xuecheng.manage_course.dao.CourseMapper;
 import com.xuecheng.manage_course.dao.TeachplanMapper;
 import com.xuecheng.manage_course.dao.TeachplanRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,6 +29,9 @@ public class CourseService {
 
     @Autowired
     private CourseBaseRepository courseBaseRepository;
+
+    @Autowired
+    private CourseMapper courseMapper;
 
     @Autowired
     private TeachplanMapper teachplanMapper;
@@ -103,5 +113,26 @@ public class CourseService {
         Teachplan teachplan = teachplanList.get(0);
         return teachplan.getId();
 
+    }
+
+    public QueryResponseResult findCourseList(int page, int size, CourseListRequest courseListRequest) {
+
+        if (courseListRequest == null) {
+            courseListRequest = new CourseListRequest();
+        }
+
+        if (page <= 0) {
+            page = 1;
+        }
+        if (size <= 0) {
+            size = 10;
+        }
+
+        PageHelper.startPage(page, size);
+        List<CourseInfo> courseInfos = courseMapper.findAll();
+
+        QueryResult<CourseInfo> queryResult = new QueryResult();
+        queryResult.setList(courseInfos);
+        return new QueryResponseResult(CommonCode.SUCCESS, queryResult);
     }
 }
