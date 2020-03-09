@@ -1,12 +1,15 @@
 package com.xuecheng.api.course;
 
+import com.xuecheng.framework.domain.course.CourseBase;
 import com.xuecheng.framework.domain.course.Teachplan;
 import com.xuecheng.framework.domain.course.ext.TeachplanNode;
 import com.xuecheng.framework.domain.course.request.CourseListRequest;
+import com.xuecheng.framework.domain.course.response.AddCourseResult;
 import com.xuecheng.framework.model.response.QueryResponseResult;
 import com.xuecheng.framework.model.response.ResponseResult;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import org.springframework.web.bind.annotation.RequestBody;
 
 @Api(value="课程管理接口",description = "课程管理接口，提供课程的增、删、改、查")
 public interface CourseControllerApi {
@@ -19,4 +22,7 @@ public interface CourseControllerApi {
 
     @ApiOperation("新增课程计划")
     public ResponseResult addTeachplan(Teachplan teachplan);
+
+    @ApiOperation("新增课程")
+    public AddCourseResult addCourseBase(CourseBase coursebase);
 }

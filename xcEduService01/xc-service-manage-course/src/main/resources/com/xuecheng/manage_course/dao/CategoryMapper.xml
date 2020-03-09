@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.xuecheng.manage_course.dao.CategoryMapper">
+
+    <resultMap id="categoryNodeMap" type="com.xuecheng.framework.domain.course.ext.CategoryNode">
+        <id property="id" column="c1id"/>
+        <result property="name" column="c1name"/>
+        <collection property="children" ofType="com.xuecheng.framework.domain.course.ext.CategoryNode">
+            <id property="id" column="c2id"/>
+            <result property="name" column="c2name"/>
+            <collection property="children" ofType="com.xuecheng.framework.domain.course.ext.CategoryNode">
+                <id property="id" column="c3id"/>
+                <result property="name" column="c3name"/>
+
+            </collection>
+        </collection>
+    </resultMap>
+
+    <select id="selectList" parameterType="java.lang.String" resultMap="categoryNodeMap">
+        SELECT
+            c1.id c1id,
+            c1.name c1name,
+            c2.id c2id,
+            c2.name c2name,
+            c3.id c3id,
+            c3.name c3name
+        FROM
+            category c1,
+            category c2,
+            category c3
+        WHERE
+            c1.parentid = '0'
+            AND c1.id = c2.parentid
+            AND c2.id = c3.parentid
+    </select>
+
+</mapper>
