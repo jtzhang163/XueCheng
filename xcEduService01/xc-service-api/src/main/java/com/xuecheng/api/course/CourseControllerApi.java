@@ -9,6 +9,7 @@ import com.xuecheng.framework.model.response.QueryResponseResult;
 import com.xuecheng.framework.model.response.ResponseResult;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 
 @Api(value="课程管理接口",description = "课程管理接口，提供课程的增、删、改、查")
@@ -25,4 +26,10 @@ public interface CourseControllerApi {
 
     @ApiOperation("新增课程")
     public AddCourseResult addCourseBase(CourseBase coursebase);
+
+    @ApiOperation("根据ID查询课程")
+    public CourseBase findCourseBaseById(String courseId);
+
+    @ApiOperation("根据ID更新课程基本信息")
+    public ResponseResult updateCourseBase(String id, CourseBase courseBase);
 }

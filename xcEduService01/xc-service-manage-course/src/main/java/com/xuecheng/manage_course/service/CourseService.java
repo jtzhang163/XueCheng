@@ -1,7 +1,6 @@
 package com.xuecheng.manage_course.service;
 
 import com.github.pagehelper.PageHelper;
-import com.xuecheng.framework.domain.cms.request.QueryPageRequest;
 import com.xuecheng.framework.domain.course.CourseBase;
 import com.xuecheng.framework.domain.course.Teachplan;
 import com.xuecheng.framework.domain.course.ext.CourseInfo;
@@ -100,7 +99,7 @@ public class CourseService {
         CourseBase courseBase = optional.get();
 
         List<Teachplan> teachplanList = teachplanRepository.findByCourseidAndParentid(courseid, "0");
-        if (teachplanList == null || teachplanList.size() == 0){
+        if (teachplanList == null || teachplanList.size() == 0) {
             //新增一个根结点
             Teachplan teachplanRoot = new Teachplan();
             teachplanRoot.setCourseid(courseid);
@@ -141,5 +140,34 @@ public class CourseService {
     public AddCourseResult addCourseBase(CourseBase courseBase) {
         courseBaseRepository.save(courseBase);
         return new AddCourseResult(CommonCode.SUCCESS, courseBase.getId());
+    }
+
+    public CourseBase findCourseBaseById(String courseId) {
+        Optional<CourseBase> optional = courseBaseRepository.findById(courseId);
+        if (optional.isPresent()) {
+            return optional.get();
+        }
+        return null;
+    }
+
+    @Transactional
+    public ResponseResult updateCourseBase(String id, CourseBase courseBase) {
+        Optional<CourseBase> optional = courseBaseRepository.findById(id);
+
+        if(!optional.isPresent()){
+            ExceptionCast.cast(CommonCode.FAIL);
+        }
+        CourseBase courseBase1 = optional.get();
+
+        courseBase1.setName(courseBase.getName());
+        courseBase1.setUsers(courseBase.getUsers());
+        courseBase1.setMt(courseBase.getMt());
+        courseBase1.setSt(courseBase.getSt());
+        courseBase1.setGrade(courseBase.getGrade());
+        courseBase1.setStudymodel(courseBase.getStudymodel());
+        courseBase1.setDescription(courseBase.getDescription());
+
+        courseBaseRepository.save(courseBase1);
+        return ResponseResult.SUCCESS();
     }
 }

@@ -10,7 +10,6 @@ public class CategoryService {
     @Autowired
     private CategoryMapper categoryMapper;
 
-
     public CategoryNode findCategoryNode() {
         return categoryMapper.selectList();
     }

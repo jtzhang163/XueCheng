@@ -52,7 +52,7 @@
         editLoading: false,
         props: {
           value: 'id',
-          label:'label',
+          label:'name',
           children:'children'
         },
         categoryList: [],
@@ -129,8 +129,9 @@
         this.gradeList = res.dvalue;
       });
       //取课程分类
-      courseApi.category_findlist({}).then((res) => {
+      courseApi.category_findlist().then((res) => {
         this.categoryList = res.children;
+        console.log(this.categoryList)
       });
       //查询课程信息
         //课程id

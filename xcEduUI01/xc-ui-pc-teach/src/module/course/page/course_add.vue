@@ -109,7 +109,6 @@
       courseApi.category_findlist().then(res=>{
           this.categoryList = res.children;
           console.log(this.categoryList)
-
       })
 
       //查询数据字典
