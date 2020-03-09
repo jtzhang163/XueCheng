@@ -128,8 +128,8 @@
         courseApi.savemedia(teachplanMedia).then(res=>{
             if(res.success){
                 this.$message.success("选择视频成功")
-              //查询课程计划
-              this.findTeachplan()
+                //查询课程计划
+                this.findTeachplan()
             }else{
               this.$message.error(res.message)
             }
@@ -199,8 +199,6 @@
             if(res && res.children){
               this.teachplanList = res.children;
             }
-
-
         })
       }
     },
@@ -208,8 +206,7 @@
       //课程id
       this.courseid = this.$route.params.courseid;
       //查询课程计划
-      // this.findTeachplan()
-
+      this.findTeachplan();
     }
   }
 </script>
