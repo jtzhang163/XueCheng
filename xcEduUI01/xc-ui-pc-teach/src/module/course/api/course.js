@@ -69,5 +69,14 @@ export const updateCoursebase = (id, params) => {
   return http.requestPost(apiUrl + '/course/coursebase/update/' + id, params)
 }
 
+/*查询课程营销*/
+export const getCourseMarketById = courseId => {
+  return http.requestQuickGet(apiUrl + '/course/market/' + courseId);
+}
+
+/*更新课程营销*/
+export const updateCourseMarket = (courseId, params) => {
+  return http.requestPost(apiUrl + '/course/market/' + courseId, params);
+}
 
 

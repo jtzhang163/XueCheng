@@ -2,6 +2,7 @@ package com.xuecheng.manage_course.service;
 
 import com.github.pagehelper.PageHelper;
 import com.xuecheng.framework.domain.course.CourseBase;
+import com.xuecheng.framework.domain.course.CourseMarket;
 import com.xuecheng.framework.domain.course.Teachplan;
 import com.xuecheng.framework.domain.course.ext.CourseInfo;
 import com.xuecheng.framework.domain.course.ext.TeachplanNode;
@@ -12,10 +13,7 @@ import com.xuecheng.framework.model.response.CommonCode;
 import com.xuecheng.framework.model.response.QueryResponseResult;
 import com.xuecheng.framework.model.response.QueryResult;
 import com.xuecheng.framework.model.response.ResponseResult;
-import com.xuecheng.manage_course.dao.CourseBaseRepository;
-import com.xuecheng.manage_course.dao.CourseMapper;
-import com.xuecheng.manage_course.dao.TeachplanMapper;
-import com.xuecheng.manage_course.dao.TeachplanRepository;
+import com.xuecheng.manage_course.dao.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
@@ -29,6 +27,9 @@ public class CourseService {
 
     @Autowired
     private CourseBaseRepository courseBaseRepository;
+
+    @Autowired
+    private CourseMarketRepository courseMarketRepository;
 
     @Autowired
     private CourseMapper courseMapper;
@@ -154,7 +155,7 @@ public class CourseService {
     public ResponseResult updateCourseBase(String id, CourseBase courseBase) {
         Optional<CourseBase> optional = courseBaseRepository.findById(id);
 
-        if(!optional.isPresent()){
+        if (!optional.isPresent()) {
             ExceptionCast.cast(CommonCode.FAIL);
         }
         CourseBase courseBase1 = optional.get();
@@ -169,5 +170,37 @@ public class CourseService {
 
         courseBaseRepository.save(courseBase1);
         return ResponseResult.SUCCESS();
+    }
+
+    public CourseMarket getCourseMarketById(String courseId) {
+        Optional<CourseMarket> optional = courseMarketRepository.findById(courseId);
+        if (optional.isPresent()) {
+            return optional.get();
+        }
+        return null;
+    }
+
+    public ResponseResult updateCourseMarket(String courseId, CourseMarket courseMarket) {
+
+        CourseMarket courseMarket1 = this.getCourseMarketById(courseId);
+
+        if(courseMarket1 == null){
+            courseMarket1 = new CourseMarket();
+        }
+
+        if(courseMarket == null) {
+            ExceptionCast.cast(CommonCode.INVALIDPARAM);
+        }
+
+        courseMarket1.setId(courseId);
+        courseMarket1.setCharge(courseMarket.getCharge());
+        courseMarket1.setStartTime(courseMarket.getStartTime());
+        courseMarket1.setEndTime(courseMarket.getEndTime());
+        courseMarket1.setValid(courseMarket.getValid());
+        courseMarket1.setQq(courseMarket.getQq());
+
+        courseMarketRepository.save(courseMarket1);
+        return ResponseResult.SUCCESS();
+
     }
 }

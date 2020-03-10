@@ -46,7 +46,7 @@
     data() {
       return {
         page:1,
-        size:7,
+        size:30,
         total: 0,
         courses: [
           {
