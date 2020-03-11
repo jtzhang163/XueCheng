@@ -46,4 +46,7 @@ public interface CourseControllerApi {
 
     @ApiOperation("")
     public CoursePic findCoursePic(String courseId);
+
+    @ApiOperation("删除课程图片")
+    public ResponseResult deleteCoursePic(String courseId);
 }
