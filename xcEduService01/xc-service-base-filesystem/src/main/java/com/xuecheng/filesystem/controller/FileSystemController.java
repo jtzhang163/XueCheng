@@ -15,15 +15,13 @@ import org.springframework.web.multipart.MultipartFile;
 public class FileSystemController implements FileSystemControllerApi {
     @Autowired
     FileSystemService fileSystemService;
+
     @Override
     @PostMapping("/upload")
     public UploadFileResult upload(@RequestParam("file") MultipartFile file,
-                                   @RequestParam(value = "filetag", required = true) String
-                                           filetag,
-                                   @RequestParam(value = "businesskey", required = false) String
-                                           businesskey,
-                                   @RequestParam(value = "metedata", required = false) String
-                                           metadata) {
-        return fileSystemService.upload(file,filetag,businesskey,metadata);
+                                   @RequestParam(value = "filetag", required = true) String filetag,
+                                   @RequestParam(value = "businesskey", required = false) String businesskey,
+                                   @RequestParam(value = "metedata", required = false) String metadata) {
+        return fileSystemService.upload(file, filetag, businesskey, metadata);
     }
 }

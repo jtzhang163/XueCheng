@@ -10,7 +10,6 @@ public interface FileSystemControllerApi {
 
     /**
      * 上传文件
-     *
      * @param multipartFile 文件
      * @param filetag       文件标签
      * @param businesskey   业务key
@@ -22,5 +21,4 @@ public interface FileSystemControllerApi {
                                    String filetag,
                                    String businesskey,
                                    String metadata);
-
 }
