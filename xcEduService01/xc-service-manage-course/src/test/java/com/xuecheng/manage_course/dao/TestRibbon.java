@@ -25,6 +25,7 @@ public class TestRibbon {
         //http://localhost:31001/cms/page/get/5a795ac7dd573c04508f3a56
         ResponseEntity<Map> map = restTemplate.getForEntity("http://" + serviceId + "/cms/page/get/5a795ac7dd573c04508f3a56", Map.class);
 
-        System.out.println(map);
+        Map body = map.getBody();
+        System.out.println(body);
     }
 }
