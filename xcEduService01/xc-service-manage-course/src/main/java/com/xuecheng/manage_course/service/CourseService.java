@@ -226,4 +226,12 @@ public class CourseService {
         coursePicRepository.save(coursePic);
         return new ResponseResult(CommonCode.SUCCESS);
     }
+
+    public CoursePic findCoursepic(String courseId) {
+        Optional<CoursePic> optional = coursePicRepository.findById(courseId);
+        if(optional.isPresent()){
+            return optional.get();
+        }
+        return null;
+    }
 }
