@@ -3,6 +3,7 @@ package com.xuecheng.manage_course.service;
 import com.github.pagehelper.PageHelper;
 import com.xuecheng.framework.domain.course.CourseBase;
 import com.xuecheng.framework.domain.course.CourseMarket;
+import com.xuecheng.framework.domain.course.CoursePic;
 import com.xuecheng.framework.domain.course.Teachplan;
 import com.xuecheng.framework.domain.course.ext.CourseInfo;
 import com.xuecheng.framework.domain.course.ext.TeachplanNode;
@@ -39,6 +40,9 @@ public class CourseService {
 
     @Autowired
     private TeachplanRepository teachplanRepository;
+
+    @Autowired
+    private CoursePicRepository coursePicRepository;
 
 
     public TeachplanNode findTeachplanList(String courseId) {
@@ -184,11 +188,11 @@ public class CourseService {
 
         CourseMarket courseMarket1 = this.getCourseMarketById(courseId);
 
-        if(courseMarket1 == null){
+        if (courseMarket1 == null) {
             courseMarket1 = new CourseMarket();
         }
 
-        if(courseMarket == null) {
+        if (courseMarket == null) {
             ExceptionCast.cast(CommonCode.INVALIDPARAM);
         }
 
@@ -202,5 +206,24 @@ public class CourseService {
         courseMarketRepository.save(courseMarket1);
         return ResponseResult.SUCCESS();
 
+    }
+
+    @Transactional
+    public ResponseResult saveCoursePic(String courseId, String pic) {
+        //查询课程图片
+        Optional<CoursePic> picOptional = coursePicRepository.findById(courseId);
+        CoursePic coursePic = null;
+        if (picOptional.isPresent()) {
+            coursePic = picOptional.get();
+        }
+        //没有课程图片则新建对象
+        if (coursePic == null) {
+            coursePic = new CoursePic();
+        }
+        coursePic.setCourseid(courseId);
+        coursePic.setPic(pic);
+        //保存课程图片
+        coursePicRepository.save(coursePic);
+        return new ResponseResult(CommonCode.SUCCESS);
     }
 }
