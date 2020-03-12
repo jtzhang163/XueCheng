@@ -68,7 +68,7 @@
           let fileId = response.fileSystem.fileId;
           courseApi.addCoursePic(this.courseid, fileId).then(res => {
             if (res.success) {
-              this.$message.success("上传图片")
+              this.$message.success("上传图片成功！")
             } else {
               this.$message.error(res.message)
             }
