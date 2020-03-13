@@ -6,6 +6,7 @@ import com.xuecheng.framework.domain.course.CourseMarket;
 import com.xuecheng.framework.domain.course.CoursePic;
 import com.xuecheng.framework.domain.course.Teachplan;
 import com.xuecheng.framework.domain.course.ext.CourseInfo;
+import com.xuecheng.framework.domain.course.ext.CourseView;
 import com.xuecheng.framework.domain.course.ext.TeachplanNode;
 import com.xuecheng.framework.domain.course.request.CourseListRequest;
 import com.xuecheng.framework.domain.course.response.AddCourseResult;
@@ -229,7 +230,7 @@ public class CourseService {
 
     public CoursePic findCoursepic(String courseId) {
         Optional<CoursePic> optional = coursePicRepository.findById(courseId);
-        if(optional.isPresent()){
+        if (optional.isPresent()) {
             return optional.get();
         }
         return null;
@@ -240,9 +241,37 @@ public class CourseService {
     public ResponseResult deleteCoursePic(String courseId) {
         //执行删除，返回1表示删除成功，返回0表示删除失败
         long result = coursePicRepository.deleteByCourseid(courseId);
-        if(result>0){
+        if (result > 0) {
             return new ResponseResult(CommonCode.SUCCESS);
         }
         return new ResponseResult(CommonCode.FAIL);
+    }
+
+    public CourseView getCourseView(String id) {
+        CourseView courseView = new CourseView();
+
+        Optional<CourseBase> baseOptional = courseBaseRepository.findById(id);
+        if (baseOptional.isPresent()) {
+            CourseBase courseBase = baseOptional.get();
+            courseView.setCourseBase(courseBase);
+        }
+
+        Optional<CoursePic> picOptional = coursePicRepository.findById(id);
+        if (picOptional.isPresent()) {
+            CoursePic coursePic = picOptional.get();
+
+            courseView.setCoursePic(coursePic);
+        }
+
+        Optional<CourseMarket> marketOptional = courseMarketRepository.findById(id);
+        if (marketOptional.isPresent()) {
+            CourseMarket courseMarket = marketOptional.get();
+            courseView.setCourseMarket(courseMarket);
+        }
+
+        TeachplanNode teachplanNode = teachplanMapper.selectList(id);
+        courseView.setTeachplanNode(teachplanNode);
+
+        return courseView;
     }
 }
