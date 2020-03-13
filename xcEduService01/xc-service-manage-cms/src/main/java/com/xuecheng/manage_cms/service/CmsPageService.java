@@ -126,6 +126,17 @@ public class CmsPageService {
         return new CmsPageResult(CommonCode.SUCCESS, save);
     }
 
+    public CmsPageResult save(CmsPage cmsPage) {
+        //校验唯一性
+        CmsPage cmsPage1 = cmsPageRepository.findByPageNameAndSiteIdAndPageWebPath(cmsPage.getPageName(), cmsPage.getSiteId(), cmsPage.getPageWebPath());
+        if (cmsPage1 != null) {
+            //页面名称已经存在
+            return this.edit(cmsPage1.getPageId(), cmsPage);
+        }
+
+        return this.add(cmsPage);
+    }
+
     public CmsPage findById(String id) {
         Optional<CmsPage> opitonal = cmsPageRepository.findById(id);
         if (opitonal.isPresent()) {
@@ -321,4 +332,5 @@ public class CmsPageService {
         cmsPageRepository.save(cmsPage);
         return cmsPage;
     }
+
 }

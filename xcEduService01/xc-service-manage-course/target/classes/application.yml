@@ -38,3 +38,11 @@ ribbon:
       #没有实现幂等的情况下是很危险的,所以设置为false
   ConnectTimeout: 5000 #请求连接的超时时间
   ReadTimeout: 6000 #请求处理的超时时间
+
+course-publish:
+  siteId: 5e6afdb8930aab0cc457b193
+  templateId: 5e6af9b7930aab0cc457b18c
+  previewUrl: http://www.xuecheng.com/cms/preview/
+  pageWebPath: /course/detail/
+  pagePhysicalPath: /course/detail/
+  dataUrlPre: http://localhost:31200/course/courseview/
