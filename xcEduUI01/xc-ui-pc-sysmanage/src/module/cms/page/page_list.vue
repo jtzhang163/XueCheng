@@ -99,7 +99,7 @@
         this.query();
       },
       preview: function(pageId) {
-        window.open('http://www.xuecheng.com:8000/cms/preview/' + pageId);
+        window.open('http://www.xuecheng.com/cms/preview/' + pageId);
       },
       postPage: function (pageId) {
         this.$confirm('确认发布页面吗？', '提示', {}).then(() => {
