@@ -43,7 +43,7 @@
   import * as courseApi from '../../api/course';
   import utilApi from '../../../../common/utils';
   import * as systemApi from '../../../../base/api/system';
-export default{
+export default {
 
   data() {
     return {
@@ -53,53 +53,52 @@ export default{
       previewurl: ''
     }
   },
-  methods:{
+  methods: {
     //预览
-    preview(){
-        //调用课程管理服务的预览接口，得到课程预览url
+    preview() {
+      //调用课程管理服务的预览接口，得到课程预览url
       courseApi.preview(this.courseid).then((res) => {
-        if(res.success){
+        if (res.success) {
           this.$message.error('预览页面生成成功，请点击下方预览链接');
-          if(res.previewUrl){
+          if (res.previewUrl) {
             //预览url
             this.previewurl = res.previewUrl
           }
-        }else{
+        } else {
           this.$message.error(res.message);
         }
       });
     },
-    publish(){
+    publish() {
       //课程发布
-      courseApi.publish(this.courseid).then(res=>{
-          if(res.success){
-              this.$message.success("发布成功，请点击下边的链接查询课程详情页面")
-
-          }else{
-            this.$message.error(res.message)
-          }
+      courseApi.publish(this.courseid).then(res => {
+        if (res.success) {
+          this.$message.success("发布成功，请点击下边的链接查询课程详情页面")
+          this.getCourseView();
+        } else {
+          this.$message.error(res.message)
+        }
 
       })
     },
-    getCourseView(){
-      courseApi.findCourseView(this.courseid).then(res=>{
-        if(res && res.courseBase){
-            //获取课程状态
-            this.course.status = res.courseBase.status;
+    getCourseView() {
+      courseApi.findCourseView(this.courseid).then(res => {
+        if (res && res.courseBase) {
+          //获取课程状态
+          this.course.status = res.courseBase.status;
         }
 
       })
     }
 
   },
-  mounted(){
+  mounted() {
     //课程id
     this.courseid = this.$route.params.courseid;
     //查询课程信息
     this.getCourseView();
   }
-
-  }
+}
 </script>
 <style>
 
