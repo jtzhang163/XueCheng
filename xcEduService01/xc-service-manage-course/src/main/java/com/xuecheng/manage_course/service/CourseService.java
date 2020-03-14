@@ -382,7 +382,7 @@ public class CourseService {
         //更新时间戳为最新时间
         coursePubNew.setTimestamp(new Date());
         //发布时间
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("YYYY‐MM‐dd HH:mm:ss");
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("YYYY-MM-dd HH:mm:ss");
         String date = simpleDateFormat.format(new Date());
         coursePubNew.setPubTime(date);
         coursePubRepository.save(coursePubNew);
