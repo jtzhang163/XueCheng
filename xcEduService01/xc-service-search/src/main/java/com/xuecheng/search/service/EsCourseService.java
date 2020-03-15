@@ -80,6 +80,18 @@ public class EsCourseService {
 
         //设置boolQueryBuilder到searchSourceBuilder
         searchSourceBuilder.query(boolQueryBuilder);
+
+        //分页查询
+        if(page < 1){
+            page = 1;
+        }
+        if(size < 1){
+            size = 12;
+        }
+
+        searchSourceBuilder.from((page - 1) * size);
+        searchSourceBuilder.size(size);
+
         searchRequest.source(searchSourceBuilder);
 
         QueryResult<CoursePub> queryResult = new QueryResult();
