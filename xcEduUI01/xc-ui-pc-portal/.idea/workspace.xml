@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6440b44c-fdb5-455f-ab19-73f7ccd848f9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../xcEduService01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../xcEduService01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/course/search/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/course/search/index.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -66,12 +65,12 @@
         <counts>
           <entry key="js" value="3" />
           <entry key="json" value="1" />
-          <entry key="vue" value="7" />
+          <entry key="vue" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="7" />
+          <entry key="HTML" value="8" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="3" />
         </counts>
@@ -79,10 +78,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="json" value="2" />
+          <entry key="vue" value="73" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="HTML" value="73" />
           <entry key="JSON" value="2" />
         </counts>
       </usages-collector>
@@ -93,8 +94,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/course/search/index.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-228">
-              <caret line="126" column="16" lean-forward="true" selection-start-line="126" selection-start-column="16" selection-end-line="126" selection-end-column="16" />
+            <state relative-caret-position="228">
+              <caret line="246" column="5" selection-start-line="246" selection-start-column="5" selection-end-line="246" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -121,8 +122,8 @@
         <option value="$PROJECT_DIR$/pages/user/one.vue" />
         <option value="$PROJECT_DIR$/pages/user.vue" />
         <option value="$PROJECT_DIR$/pages/user/_id.vue" />
-        <option value="$PROJECT_DIR$/pages/course/search/index.vue" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/pages/course/search/index.vue" />
       </list>
     </option>
   </component>
@@ -143,9 +144,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="282" />
+    <option name="x" value="210" />
+    <option name="y" value="42" />
     <option name="width" value="932" />
-    <option name="height" value="735" />
+    <option name="height" value="601" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -201,6 +203,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java\projects\XueCheng\xcEduUI01\xc-ui-pc-portal\pages\course\search" />
       <recent name="F:\teach\xcEdu\xcEduUI01\xc-ui-pc-portal\pages\user" />
       <recent name="F:\teach\xcEdu\xcEduUI01\xc-ui-pc-portal\pages" />
       <recent name="F:\teach\xcEdu\xcEduUI01\xc-ui-pc-portal\layouts" />
@@ -246,23 +249,24 @@
       <option name="presentableId" value="Default" />
       <updated>1537748359018</updated>
       <workItem from="1537748360296" duration="8559000" />
-      <workItem from="1584270663996" duration="3685000" />
+      <workItem from="1584270663996" duration="5335000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12244000" />
+    <option name="totallyTimeSpent" value="13894000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.66855526" visible="true" weight="0.22023809" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6688034" visible="true" weight="0.11160714" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" id="npm" order="2" sideWeight="0.33144477" side_tool="true" visible="true" weight="0.22023809" />
+      <window_info id="npm" order="2" sideWeight="0.33119658" side_tool="true" visible="true" weight="0.11160714" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42036125" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23152709" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -392,6 +396,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-228">
           <caret line="126" column="16" lean-forward="true" selection-start-line="126" selection-start-column="16" selection-end-line="126" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/course/search/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="246" column="5" selection-start-line="246" selection-start-column="5" selection-end-line="246" selection-end-column="5" />
         </state>
       </provider>
     </entry>

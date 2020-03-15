@@ -186,18 +186,64 @@
       }
     },
     async asyncData({ store, route }) {//服务端调用方法
-      return {
-        courselist: {},
-        first_category:{},
-        second_category:{},
-        mt:'',
-        st:'',
-        grade:'',
-        keyword:'',
-        page:1,
-        total:0,
-        imgUrl:config.imgUrl
+      //搜索课程
+      let page = route.query.page;
+      if (!page) {
+        page = 1;
+      } else {
+        page = Number.parseInt(page)
       }
+      console.log(page);
+      //请求搜索服务，搜索服务
+      let course_data = await courseApi.search_course(page, 2, route.query);
+      console.log(course_data)
+
+      if (course_data && course_data.queryResult) {
+
+        let keywords = ''
+        let mt = ''
+        let st = ''
+        let grade = ''
+        let keyword = ''
+        let total = course_data.queryResult.total
+        if (route.query.mt) {
+          mt = route.query.mt
+        }
+        if (route.query.st) {
+          st = route.query.st
+        }
+        if (route.query.grade) {
+          grade = route.query.grade
+        }
+        if (route.query.keyword) {
+          keyword = route.query.keyword
+        }
+        return {
+          courselist: course_data.queryResult.list,//课程列表
+          keywords: keywords,
+          mt: mt,
+          st: st,
+          grade: grade,
+          keyword: keyword,
+          page: page,
+          total: total,
+          imgUrl: config.imgUrl
+        }
+      } else {
+        return {
+          courselist: {},
+          first_category: {},
+          second_category: {},
+          mt: '',
+          st: '',
+          grade: '',
+          keyword: '',
+          page: page,
+          total: 0,
+          imgUrl: config.imgUrl
+        }
+      }
+
     },
     data(){
       return {
