@@ -431,23 +431,23 @@ public class CourseService {
     //发布课程正式页面
     public CmsPostPageResult publish_page(String courseId) {
         CourseBase one = this.findCourseBaseById(courseId);
-//发布课程预览页面
+        //发布课程预览页面
         CmsPage cmsPage = new CmsPage();
-//站点
+        //站点
         cmsPage.setSiteId(publish_siteId);//课程预览站点
-//模板
+        //模板
         cmsPage.setTemplateId(publish_templateId);
-//页面名称
+        //页面名称
         cmsPage.setPageName(courseId + ".html");
-//页面别名
+        //页面别名
         cmsPage.setPageAliase(one.getName());
-//页面访问路径
+        //页面访问路径
         cmsPage.setPageWebPath(publish_page_webpath);
-//页面存储路径
+        //页面存储路径
         cmsPage.setPagePhysicalPath(publish_page_physicalpath);
-//数据url
+        //数据url
         cmsPage.setDataUrl(publish_dataUrlPre + courseId);
-//发布页面
+        //发布页面
         CmsPostPageResult cmsPostPageResult = cmsPageClient.postPageQuick(cmsPage);
         return cmsPostPageResult;
     }
