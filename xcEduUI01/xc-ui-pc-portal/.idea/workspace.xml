@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6440b44c-fdb5-455f-ab19-73f7ccd848f9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../xcEduService01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../xcEduService01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/xc-ui-pc-portal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/xc-ui-pc-portal.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xc-ui-pc-static-portal/video.html" beforeDir="false" afterPath="$PROJECT_DIR$/../xc-ui-pc-static-portal/video.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/xc-ui-pc-portal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/xc-ui-pc.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -63,7 +62,8 @@
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.59" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.64" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -98,22 +98,9 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/course/search/index.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="249" column="16" lean-forward="true" selection-start-line="249" selection-start-column="16" selection-end-line="249" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../xc-ui-pc-static-portal/video.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/../xc-ui-pc-leanring/src/module/course/page/learning_video.vue">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -154,6 +141,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/../xc-ui-pc-leanring/node_modules" />
     <handled-path value="$PROJECT_DIR$/node_modules" />
     <handled-path value="$PROJECT_DIR$/../xc-ui-pc-static-portal/plugins/bootstrap/node_modules" />
     <handled-path value="$PROJECT_DIR$/../xc-ui-pc-sysmanage/node_modules" />
@@ -183,13 +171,43 @@
         <subPane>
           <expand>
             <path>
-              <item name="xc-ui-pc-portal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xc-ui-pc-portal" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="xc-ui-pc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xc-ui-pc" type="47feb1d3:ProjectViewModuleNode" />
             </path>
             <path>
-              <item name="xc-ui-pc-portal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xc-ui-pc-portal" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="xc-ui-pc-static-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-ui-pc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xc-ui-pc" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="xc-ui-pc-leanring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xc-ui-pc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xc-ui-pc" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="xc-ui-pc-leanring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xc-ui-pc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xc-ui-pc" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="xc-ui-pc-leanring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xc-ui-pc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xc-ui-pc" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="xc-ui-pc-leanring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xc-ui-pc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xc-ui-pc" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="xc-ui-pc-leanring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -200,7 +218,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../xc-ui-pc-teach" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../xc-ui-pc-leanring" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -278,20 +296,21 @@
       <workItem from="1537748360296" duration="8559000" />
       <workItem from="1584270663996" duration="9182000" />
       <workItem from="1584289187571" duration="1104000" />
-      <workItem from="1584316941141" duration="2071000" />
+      <workItem from="1584316941141" duration="2912000" />
+      <workItem from="1584324734666" duration="208000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20916000" />
+    <option name="totallyTimeSpent" value="22017000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6666667" visible="true" weight="0.15625" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.66502464" visible="true" weight="0.110119045" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" sideWeight="0.33333334" side_tool="true" visible="true" weight="0.15625" />
+      <window_info id="npm" order="2" sideWeight="0.33497536" side_tool="true" visible="true" weight="0.110119045" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -415,19 +434,22 @@
     <entry file="file://$PROJECT_DIR$/../xc-ui-pc-teach/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/course/search/index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="249" column="16" lean-forward="true" selection-start-line="249" selection-start-column="16" selection-end-line="249" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../xc-ui-pc-static-portal/video.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/course/search/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="249" column="16" selection-start-line="249" selection-start-column="16" selection-end-line="249" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../xc-ui-pc-leanring/src/module/course/page/learning_video.vue">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
