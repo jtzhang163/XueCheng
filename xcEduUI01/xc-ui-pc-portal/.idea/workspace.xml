@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6440b44c-fdb5-455f-ab19-73f7ccd848f9" name="Default Changelist" comment="" />
+    <list default="true" id="6440b44c-fdb5-455f-ab19-73f7ccd848f9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../xcEduService01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../xcEduService01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/media/page/upload.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/media/page/upload.vue" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -67,12 +70,12 @@
           <entry key="html" value="2" />
           <entry key="js" value="3" />
           <entry key="json" value="2" />
-          <entry key="vue" value="8" />
+          <entry key="vue" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="10" />
+          <entry key="HTML" value="11" />
           <entry key="JSON" value="2" />
           <entry key="JavaScript" value="3" />
         </counts>
@@ -93,17 +96,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../xc-ui-pc-static-portal/video.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="10" selection-end-line="32" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -179,18 +172,7 @@
             <path>
               <item name="xc-ui-pc" type="b2602c69:ProjectViewProjectNode" />
               <item name="xc-ui-pc" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="xc-ui-pc-leanring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xc-ui-pc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xc-ui-pc" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="xc-ui-pc-leanring" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xc-ui-pc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xc-ui-pc" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="xc-ui-pc-static-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-ui-pc-teach" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -216,6 +198,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java\projects\XueCheng\xcEduUI01\xc-ui-pc-teach\src\module\media\page" />
       <recent name="D:\Java\projects\XueCheng\xcEduUI01\xc-ui-pc-portal\pages\course\search" />
       <recent name="F:\teach\xcEdu\xcEduUI01\xc-ui-pc-portal\pages\user" />
       <recent name="F:\teach\xcEdu\xcEduUI01\xc-ui-pc-portal\pages" />
@@ -272,8 +255,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.dev (2)" />
         <item itemvalue="npm.dev (1)" />
+        <item itemvalue="npm.dev (2)" />
         <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
@@ -292,24 +275,23 @@
       <workItem from="1584270663996" duration="9182000" />
       <workItem from="1584289187571" duration="1104000" />
       <workItem from="1584316941141" duration="2912000" />
-      <workItem from="1584324734666" duration="1849000" />
+      <workItem from="1584324734666" duration="3181000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23606000" />
+    <option name="totallyTimeSpent" value="24938000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.66468257" visible="true" weight="0.22991072" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.66468257" visible="true" weight="0.22991072" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.33531746" side_tool="true" visible="true" weight="0.22991072" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1724138" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1724138" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -447,6 +429,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="10" selection-end-line="32" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../xc-ui-pc-teach/src/module/media/page/upload.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="40" column="21" lean-forward="true" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
         </state>
       </provider>
     </entry>
