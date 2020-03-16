@@ -6,6 +6,9 @@
       <excludeFolder url="file://$MODULE_DIR$/temp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
     </content>
+    <content url="file://$MODULE_DIR$/../xc-ui-pc-static-portal" />
+    <content url="file://$MODULE_DIR$/../xc-ui-pc-sysmanage" />
+    <content url="file://$MODULE_DIR$/../xc-ui-pc-teach" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
