@@ -1,2 +1,5 @@
 libraries
 /logs/*.log
+/xcEduUI01/video/hls/*.m3u8
+/xcEduUI01/video/hls/*.ts
+/xcEduUI01/video/*.avi
