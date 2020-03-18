@@ -631,7 +631,7 @@ let sysConfig = require('@/../config/sysConfig')
     mounted () {
       // 播放测试
       //this.playvideo('http://video.xuecheng.com/video/hls/lucene.m3u8')
-      this.playvideo("http://video.xuecheng.com/video/c/5/c5c75d70f382e6016d2f506d134eee11/hls/c5c75d70f382e6016d2f506d134eee11.m3u8")
+      //this.playvideo("http://video.xuecheng.com/video/c/5/c5c75d70f382e6016d2f506d134eee11/hls/c5c75d70f382e6016d2f506d134eee11.m3u8")
 
       $(function () {
         $('.active-box span').click(function () {
