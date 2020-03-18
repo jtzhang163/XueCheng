@@ -24,6 +24,7 @@ import org.springframework.stereotype.Service;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -36,10 +37,16 @@ public class EsCourseService {
 
     @Value("${xuecheng.course.index}")
     private String index;
+    @Value("${xuecheng.media.index}")
+    private String media_index;
     @Value("${xuecheng.course.type}")
     private String type;
+    @Value("${xuecheng.media.type}")
+    private String media_type;
     @Value("${xuecheng.course.source_field}")
     private String source_field;
+    @Value("${xuecheng.media.source_field}")
+    private String media_source_field;
 
     @Autowired
     RestHighLevelClient restHighLevelClient;
@@ -177,4 +184,53 @@ public class EsCourseService {
 
         return queryResponseResult;
     }
+
+    //使用ES的客户端向ES请求查询索引信息
+    public Map<String, CoursePub> getall(String id) {
+        //定义一个搜索请求对象
+        SearchRequest searchRequest = new SearchRequest(index);
+        //指定type
+        searchRequest.types(type);
+
+        //定义SearchSourceBuilder
+        SearchSourceBuilder searchSourceBuilder = new SearchSourceBuilder();
+        //设置使用termQuery
+        searchSourceBuilder.query(QueryBuilders.termQuery("id", id));
+        //过虑源字段，不用设置源字段，取出所有字段
+        //searchSourceBuilder.fetchSource()
+        searchRequest.source(searchSourceBuilder);
+        //最终要返回的课程信息
+
+        Map<String, CoursePub> map = new HashMap<>();
+        try {
+            SearchResponse search = restHighLevelClient.search(searchRequest);
+            SearchHits hits = search.getHits();
+            SearchHit[] searchHits = hits.getHits();
+            for (SearchHit hit : searchHits) {
+                CoursePub coursePub = new CoursePub();
+                //获取源文档的内容
+                Map<String, Object> sourceAsMap = hit.getSourceAsMap();
+                //课程id
+                String courseId = (String) sourceAsMap.get("id");
+                String name = (String) sourceAsMap.get("name");
+                String grade = (String) sourceAsMap.get("grade");
+                String charge = (String) sourceAsMap.get("charge");
+                String pic = (String) sourceAsMap.get("pic");
+                String description = (String) sourceAsMap.get("description");
+                String teachplan = (String) sourceAsMap.get("teachplan");
+                coursePub.setId(courseId);
+                coursePub.setName(name);
+                coursePub.setPic(pic);
+                coursePub.setGrade(grade);
+                coursePub.setTeachplan(teachplan);
+                coursePub.setDescription(description);
+                map.put(courseId, coursePub);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return map;
+    }
+
 }
