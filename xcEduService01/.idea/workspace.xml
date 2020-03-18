@@ -40,7 +40,40 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MediaFileService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xc-service-manage-media/src/main/java/com/xuecheng/manage_media/service/MediaFileService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MediaFileController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xc-service-manage-media/src/main/java/com/xuecheng/manage_media/controller/MediaFileController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InvocableHandlerMethod.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.5.RELEASE/spring-web-5.0.5.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -79,8 +112,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/filesystem/FileSystemControllerApi.java" />
-        <option value="$PROJECT_DIR$/xc-service-base-filesystem/src/main/java/com/xuecheng/filesystem/controller/FileSystemController.java" />
         <option value="$PROJECT_DIR$/xc-govern-center/pom.xml" />
         <option value="$PROJECT_DIR$/xc-govern-center/src/main/java/com/xuecheng/govern/center/GovernCenterApplication.java" />
         <option value="$PROJECT_DIR$/xc-govern-center/src/main/resources/application.yml" />
@@ -120,8 +151,6 @@
         <option value="$PROJECT_DIR$/xc-service-manage-media/src/main/java/com/xuecheng/manage_media/config/RabbitMQConfig.java" />
         <option value="$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/course/CourseControllerApi.java" />
         <option value="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/controller/CourseController.java" />
-        <option value="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/dao/TeachplanMediaRepository.java" />
-        <option value="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/service/CourseService.java" />
         <option value="$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/course/response/CourseCode.java" />
         <option value="$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/course/TeachplanMedia.java" />
         <option value="$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/course/ext/TeachplanNode.java" />
@@ -130,6 +159,10 @@
         <option value="$PROJECT_DIR$/xc-service-search/src/main/java/com/xuecheng/search/controller/EsCourseController.java" />
         <option value="$PROJECT_DIR$/xc-service-search/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/xc-service-search/src/main/java/com/xuecheng/search/service/EsCourseService.java" />
+        <option value="$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/course/TeachplanMediaPub.java" />
+        <option value="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/dao/TeachplanMediaRepository.java" />
+        <option value="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/dao/TeachplanMediaPubRepository.java" />
+        <option value="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/service/CourseService.java" />
       </list>
     </option>
   </component>
@@ -196,6 +229,441 @@
               <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
               <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-framework-model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-framework-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-framework-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-framework-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-framework-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-framework-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xuecheng" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-framework-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xuecheng" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-framework-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xuecheng" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-manage-cms-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-manage-cms-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-manage-cms-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-manage-cms-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-manage-cms-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-manage-cms-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xuecheng" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-manage-cms-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xuecheng" type="462c0819:PsiDirectoryNode" />
+              <item name="manage_cms_client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-manage-cms-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-manage-course" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-manage-course" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-manage-course" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-manage-course" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-manage-course" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-manage-course" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xuecheng" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-manage-course" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xuecheng" type="462c0819:PsiDirectoryNode" />
+              <item name="manage_course" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-manage-course" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xuecheng" type="462c0819:PsiDirectoryNode" />
+              <item name="manage_course" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-manage-course" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xuecheng" type="462c0819:PsiDirectoryNode" />
+              <item name="manage_course" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-manage-media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-manage-media" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-manage-media" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-manage-media" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-manage-media" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-manage-media" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xuecheng" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-manage-media" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xuecheng" type="462c0819:PsiDirectoryNode" />
+              <item name="manage_media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-manage-media" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xuecheng" type="462c0819:PsiDirectoryNode" />
+              <item name="manage_media" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-manage-media" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xuecheng" type="462c0819:PsiDirectoryNode" />
+              <item name="manage_media" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-manage-media" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-manage-media-processor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-manage-media-processor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-manage-media-processor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-manage-media-processor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-manage-media-processor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-manage-media-processor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xuecheng" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-manage-media-processor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xuecheng" type="462c0819:PsiDirectoryNode" />
+              <item name="manage_media_process" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-manage-media-processor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xuecheng" type="462c0819:PsiDirectoryNode" />
+              <item name="manage_media_process" type="462c0819:PsiDirectoryNode" />
+              <item name="mq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-search" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xuecheng" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xuecheng" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xuecheng" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -223,11 +691,11 @@
       <recent name="com.xuecheng.manage_cms.dao" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xuecheng.framework.domain.course" />
       <recent name="com.xuecheng.manage_course.dao" />
       <recent name="com.xuecheng.api.course" />
       <recent name="com.xuecheng.manage_cms.config" />
       <recent name="com.xuecheng.manage_cms_client.config" />
-      <recent name="com.xuecheng.manage_cms_client.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Java\projects\XueCheng\xcEduService01\xc-govern-center\src\main\resources" />
@@ -249,7 +717,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ManageCourseApplication">
+  <component name="RunManager" selected="Spring Boot.ManageMediaApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -530,8 +998,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Spring Boot.euteka02" />
-        <item index="1" class="java.lang.String" itemvalue="Spring Boot.ManageCmsClientApplication" />
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.ManageCmsClientApplication" />
+        <item index="1" class="java.lang.String" itemvalue="Spring Boot.euteka02" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.GridFsTest.testStore" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.TestFastDFS.testUpload" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.TestFastDFS.testDownload" />
@@ -593,7 +1061,7 @@
       <workItem from="1584316893976" duration="8082000" />
       <workItem from="1584365561971" duration="608000" />
       <workItem from="1584403440365" duration="15849000" />
-      <workItem from="1584432294429" duration="4855000" />
+      <workItem from="1584432294429" duration="8520000" />
     </task>
     <servers />
   </component>
@@ -630,7 +1098,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="226454000" />
+    <option name="totallyTimeSpent" value="230119000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -643,17 +1111,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22039473" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2193646" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.02496218" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3305921" sideWeight="0.4969743" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50328946" sideWeight="0.4969743" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.49394855" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35197368" sideWeight="0.4969743" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -664,7 +1133,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.4969743" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2677761" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13842663" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -726,7 +1195,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="79" />
+      <option name="time" value="80" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -735,34 +1204,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/xc-framework-common/src/main/java/com/xuecheng/framework/model/response/QueryResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.5.RELEASE/spring-web-5.0.5.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2052">
-          <caret line="126" column="46" lean-forward="false" selection-start-line="126" selection-start-column="46" selection-end-line="126" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../jdk-1.8.0/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="211" column="6" lean-forward="false" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/client/elasticsearch-rest-high-level-client/6.2.1/elasticsearch-rest-high-level-client-6.2.1.jar!/org/elasticsearch/client/RestHighLevelClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="108" column="13" lean-forward="false" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xc-service-search/src/main/java/com/xuecheng/search/SearchApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -836,14 +1277,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-manage-media/src/main/java/com/xuecheng/manage_media/controller/MediaUploadController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="44" column="33" lean-forward="true" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xc-framework-utils/src/main/java/com/xuecheng/framework/utils/HlsVideoUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -888,13 +1321,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-manage-media/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xc-service-manage-media/src/main/java/com/xuecheng/manage_media/config/RabbitMQConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -907,13 +1333,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="353">
           <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-manage-media-processor/src/main/java/com/xuecheng/manage_media_process/mq/MediaProcessTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="116" column="42" lean-forward="false" selection-start-line="116" selection-start-column="33" selection-end-line="116" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -939,18 +1359,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-manage-media/src/main/java/com/xuecheng/manage_media/service/MediaFileService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-797">
-          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="74" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/course/CourseBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-14">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -968,31 +1381,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/dao/TeachplanMediaRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="42" lean-forward="true" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/course/Teachplan.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
           <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/course/TeachplanMedia.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/service/CourseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="459" column="0" lean-forward="false" selection-start-line="459" selection-start-column="0" selection-end-line="459" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1015,6 +1407,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="17" lean-forward="false" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1054,16 +1447,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-search/src/main/java/com/xuecheng/search/service/EsCourseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1913">
-          <caret line="54" column="42" lean-forward="false" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
-          <folding>
-            <element signature="e#6998#7009#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/course/CourseControllerApi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -1090,14 +1473,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/search/EsCourseControllerApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xc-service-search/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -1106,24 +1481,134 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-manage-media/src/main/java/com/xuecheng/manage_media/controller/MediaFileController.java">
+    <entry file="file://$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/search/EsCourseControllerApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        <state relative-caret-position="209">
+          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-search/src/main/java/com/xuecheng/search/controller/EsCourseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="34" column="33" lean-forward="true" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+          <folding>
+            <element signature="e#1283#1284#0" expanded="true" />
+            <element signature="e#1332#1333#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-search/src/main/java/com/xuecheng/search/service/EsCourseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="226" column="32" lean-forward="false" selection-start-line="226" selection-start-column="24" selection-end-line="226" selection-end-column="32" />
+          <folding>
+            <element signature="e#6998#7009#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/course/TeachplanMedia.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/course/TeachplanMediaPub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="38" column="27" lean-forward="true" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/dao/TeachplanMediaRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-search/src/main/java/com/xuecheng/search/controller/EsCourseController.java">
+    <entry file="file://$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/dao/CourseMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/dao/TeachplanMediaPubRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <element signature="e#1283#1284#0" expanded="true" />
-            <element signature="e#1332#1333#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/service/CourseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="366" column="37" lean-forward="false" selection-start-line="366" selection-start-column="37" selection-end-line="366" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-manage-media/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-manage-media/src/main/java/com/xuecheng/manage_media/controller/MediaUploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="44" column="33" lean-forward="true" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-manage-media-processor/src/main/java/com/xuecheng/manage_media_process/mq/MediaProcessTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="116" column="42" lean-forward="false" selection-start-line="116" selection-start-column="33" selection-end-line="116" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-manage-media/src/main/java/com/xuecheng/manage_media/controller/MediaFileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.5.RELEASE/spring-web-5.0.5.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-manage-media/src/main/java/com/xuecheng/manage_media/service/MediaFileService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

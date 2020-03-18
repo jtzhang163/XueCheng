@@ -28,6 +28,7 @@ import org.springframework.util.StringUtils;
 
 import javax.transaction.Transactional;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Optional;
@@ -74,6 +75,9 @@ public class CourseService {
 
     @Autowired
     private TeachplanMediaRepository teachplanMediaRepository;
+
+    @Autowired
+    private TeachplanMediaPubRepository teachplanMediaPubRepository;
 
 
     public TeachplanNode findTeachplanList(String courseId) {
@@ -360,6 +364,9 @@ public class CourseService {
         CoursePub coursePub = createCoursePub(courseId);
         saveCoursePub(courseId, coursePub);
 
+        //向TeachplanMediaPub中保存课程媒资信息
+        saveTeachplanMediaPub(courseId);
+
         //课程缓存...
         //页面url
         String pageUrl = cmsPostPageResult.getPageUrl();
@@ -494,5 +501,20 @@ public class CourseService {
         teachplanMediaRepository.save(one);
 
         return new ResponseResult(CommonCode.SUCCESS);
+    }
+
+    //保存课程计划媒资信息
+    private void saveTeachplanMediaPub(String courseId){
+        //查询课程媒资信息
+        List<TeachplanMedia> teachplanMediaList = teachplanMediaRepository.findByCourseId(courseId);
+        //将课程计划媒资信息存储待索引表
+        teachplanMediaPubRepository.deleteByCourseId(courseId);
+        List<TeachplanMediaPub> teachplanMediaPubList = new ArrayList<>();
+        for(TeachplanMedia teachplanMedia:teachplanMediaList){
+            TeachplanMediaPub teachplanMediaPub =new TeachplanMediaPub();
+            BeanUtils.copyProperties(teachplanMedia,teachplanMediaPub);
+            teachplanMediaPubList.add(teachplanMediaPub);
+        }
+        teachplanMediaPubRepository.saveAll(teachplanMediaPubList);
     }
 }

@@ -590,7 +590,7 @@ let sysConfig = require('@/../config/sysConfig')
       this.chapter = this.$route.params.chapter
       // 根据课程id查询课程信息
       systemApi.course_view(this.courseId).then((view_course) => {
-        // console.log(view_course)
+        console.log(view_course)
         if(!view_course || !view_course[this.courseId]){
           this.$message.error("获取课程信息失败")
           return ;
