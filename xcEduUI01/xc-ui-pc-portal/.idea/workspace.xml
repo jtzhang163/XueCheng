@@ -174,7 +174,7 @@
       <path value="$PROJECT_DIR$/../xc-ui-pc-teach/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="210" />
     <option name="y" value="42" />
     <option name="width" value="932" />
@@ -314,15 +314,15 @@
       <workItem from="1584430418329" duration="7565000" />
       <workItem from="1584496280040" duration="8631000" />
       <workItem from="1584534350111" duration="6622000" />
-      <workItem from="1584576420068" duration="328000" />
+      <workItem from="1584576420068" duration="918000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59146000" />
+    <option name="totallyTimeSpent" value="59736000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.68099546" visible="true" weight="0.28422618" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
