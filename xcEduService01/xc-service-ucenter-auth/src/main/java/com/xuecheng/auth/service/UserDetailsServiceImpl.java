@@ -48,6 +48,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
         if(userext == null){
             return null;
         }
+        
         //取出正确密码（hash值）
         String password = userext.getPassword();
         //这里暂时使用静态密码
