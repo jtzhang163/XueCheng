@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6440b44c-fdb5-455f-ab19-73f7ccd848f9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../xcEduService01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../xcEduService01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xc-ui-pc-static-portal/include/course_detail_dynamic.html" beforeDir="false" afterPath="$PROJECT_DIR$/../xc-ui-pc-static-portal/include/course_detail_dynamic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -57,19 +57,20 @@
     <session id="1627309514">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.212" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.49" value="1" />
+          <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.59" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.64" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.89" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -107,76 +108,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../xc-ui-pc-leanring/src/module/course/page/learning_video.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="573" column="67" selection-start-line="573" selection-start-column="67" selection-end-line="573" selection-end-column="67" />
-              <folding>
-                <element signature="n#template#0;n#!!top" />
-                <element signature="e#30819#30861#0" expanded="true" />
-                <element signature="n#style#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../xc-ui-pc-static-portal/include/course_detail_dynamic.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="206" column="25" selection-start-line="206" selection-start-column="25" selection-end-line="206" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../xc-ui-pc-leanring/src/module/course/api/course.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../xc-ui-pc-leanring/config/sysConfig.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../xc-ui-pc-leanring/src/base/api/system.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../xc-ui-pc-teach/src/module/media/page/media_list.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-187">
-              <caret line="152" column="19" selection-start-line="152" selection-start-column="19" selection-end-line="152" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../xc-ui-pc-sysmanage/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-608">
-              <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -242,7 +174,7 @@
       <path value="$PROJECT_DIR$/../xc-ui-pc-teach/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="210" />
     <option name="y" value="42" />
     <option name="width" value="932" />
@@ -254,7 +186,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -262,21 +193,11 @@
               <item name="xc-ui-pc" type="b2602c69:ProjectViewProjectNode" />
               <item name="xc-ui-pc" type="47feb1d3:ProjectViewModuleNode" />
             </path>
-            <path>
-              <item name="xc-ui-pc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xc-ui-pc" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="xc-ui-pc-static-portal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xc-ui-pc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xc-ui-pc" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="xc-ui-pc-static-portal" type="462c0819:PsiDirectoryNode" />
-              <item name="include" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -364,10 +285,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.xc-ui-pc-portal-dev" />
-        <item itemvalue="npm.xc-ui-pc-teach-dev" />
-        <item itemvalue="npm.xc-ui-pc-leanring-dev" />
         <item itemvalue="npm.xc-ui-pc-sysmanage-dev" />
+        <item itemvalue="npm.xc-ui-pc-leanring-dev" />
+        <item itemvalue="npm.xc-ui-pc-teach-dev" />
+        <item itemvalue="npm.xc-ui-pc-portal-dev" />
       </list>
     </recent_temporary>
   </component>
@@ -392,24 +313,24 @@
       <workItem from="1584429991304" duration="208000" />
       <workItem from="1584430418329" duration="7565000" />
       <workItem from="1584496280040" duration="8631000" />
-      <workItem from="1584534350111" duration="4752000" />
+      <workItem from="1584534350111" duration="6622000" />
+      <workItem from="1584576420068" duration="328000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56948000" />
+    <option name="totallyTimeSpent" value="59146000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.68421054" visible="true" weight="0.28422618" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.68099546" visible="true" weight="0.28422618" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" sideWeight="0.31578946" side_tool="true" visible="true" weight="0.28422618" />
+      <window_info id="npm" order="2" sideWeight="0.31900454" side_tool="true" visible="true" weight="0.28422618" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18883416" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27422002" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39901477" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -676,27 +597,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../xc-ui-pc-sysmanage/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-608">
-          <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../xc-ui-pc-teach/src/module/media/page/media_list.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="152" column="19" selection-start-line="152" selection-start-column="19" selection-end-line="152" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../xc-ui-pc-leanring/src/base/api/system.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../xc-ui-pc-leanring/src/base/api/public.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -711,24 +611,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../xc-ui-pc-leanring/config/sysConfig.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../xc-ui-pc-leanring/src/module/course/api/course.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../xc-ui-pc-leanring/src/module/course/page/learning_video.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="573" column="67" selection-start-line="573" selection-start-column="67" selection-end-line="573" selection-end-column="67" />
+        <state relative-caret-position="228">
+          <caret line="586" column="13" selection-start-line="586" selection-start-column="13" selection-end-line="586" selection-end-column="13" />
           <folding>
             <element signature="n#template#0;n#!!top" />
             <element signature="e#30819#30861#0" expanded="true" />
@@ -739,8 +625,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../xc-ui-pc-static-portal/include/course_detail_dynamic.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
+        <state relative-caret-position="3914">
           <caret line="206" column="25" selection-start-line="206" selection-start-column="25" selection-end-line="206" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../xc-ui-pc-leanring/src/module/course/api/course.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../xc-ui-pc-leanring/config/sysConfig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../xc-ui-pc-leanring/src/base/api/system.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../xc-ui-pc-teach/src/module/media/page/media_list.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2869">
+          <caret line="152" column="19" selection-start-line="152" selection-start-column="19" selection-end-line="152" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../xc-ui-pc-sysmanage/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
         </state>
       </provider>
     </entry>
