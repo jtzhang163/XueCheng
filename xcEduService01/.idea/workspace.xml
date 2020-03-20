@@ -20,6 +20,7 @@
     <ignored path="$PROJECT_DIR$/xc-service-manage-media-processor/target/" />
     <ignored path="$PROJECT_DIR$/xc-service-learning/target/" />
     <ignored path="$PROJECT_DIR$/xc-service-ucenter-auth/target/" />
+    <ignored path="$PROJECT_DIR$/xc-service-ucenter/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,11 +44,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserDetailsServiceImpl.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UserDetailsServiceImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/xc-service-ucenter-auth/src/main/java/com/xuecheng/auth/service/UserDetailsServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="36" column="37" lean-forward="true" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+            <state relative-caret-position="38">
+              <caret line="22" column="65" lean-forward="false" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UcenterApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xc-service-ucenter/src/main/java/com/xuecheng/ucenter/UcenterApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+              <folding>
+                <element signature="e#1232#1233#0" expanded="true" />
+                <element signature="e#1310#1311#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xc-service-ucenter/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XcUserExt.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/ucenter/ext/XcUserExt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="118">
+              <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -56,8 +90,8 @@
       <file leaf-file-name="AuthService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xc-service-ucenter-auth/src/main/java/com/xuecheng/auth/service/AuthService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+            <state relative-caret-position="599">
+              <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#applyToken#0;class#AuthService#0" expanded="false" />
@@ -67,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AuthController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xc-service-ucenter-auth/src/main/java/com/xuecheng/auth/controller/AuthController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="30" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="81" selection-end-column="1" />
+            <state relative-caret-position="-781">
+              <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2902#2903#0" expanded="true" />
@@ -238,6 +272,70 @@
             <path>
               <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
               <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-ucenter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-ucenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-ucenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-ucenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-ucenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-ucenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xuecheng" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-ucenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xuecheng" type="462c0819:PsiDirectoryNode" />
+              <item name="ucenter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-ucenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
               <item name="xc-service-ucenter-auth" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -290,18 +388,6 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="xuecheng" type="462c0819:PsiDirectoryNode" />
               <item name="auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
-              <item name="xc-service-ucenter-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xuecheng" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
@@ -327,59 +413,6 @@
               <item name="auth" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
-              <item name="xc-service-ucenter-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
-              <item name="xc-service-ucenter-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
-              <item name="xc-service-ucenter-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
-              <item name="xc-service-ucenter-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
-              <item name="xc-service-ucenter-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xuecheng" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
-              <item name="xc-service-ucenter-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xuecheng" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -394,7 +427,7 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/xc-service-ucenter-auth" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/xc-service-ucenter" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.30676857" />
@@ -619,6 +652,12 @@
       <module name="test-fastdfs" />
       <envs />
     </configuration>
+    <configuration name="UcenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xuecheng.ucenter.UcenterApplication" />
+      <module name="xc-service-ucenter" />
+      <envs />
+    </configuration>
     <configuration name="UcenterAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xuecheng.auth.UcenterAuthApplication" />
@@ -710,7 +749,7 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="17">
+    <list size="18">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.ManageCourseApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.FileSystemApplication" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.euteka01" />
@@ -728,6 +767,7 @@
       <item index="14" class="java.lang.String" itemvalue="JUnit.TestJwt.testCreateJwt" />
       <item index="15" class="java.lang.String" itemvalue="JUnit.TestJwt.testVerify" />
       <item index="16" class="java.lang.String" itemvalue="JUnit.TestRedis.testRedis" />
+      <item index="17" class="java.lang.String" itemvalue="Spring Boot.UcenterApplication" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -796,7 +836,7 @@
       <workItem from="1584403440365" duration="15849000" />
       <workItem from="1584432294429" duration="15047000" />
       <workItem from="1584534272964" duration="9504000" />
-      <workItem from="1584576340115" duration="16396000" />
+      <workItem from="1584576340115" duration="18207000" />
     </task>
     <servers />
   </component>
@@ -833,7 +873,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="262546000" />
+    <option name="totallyTimeSpent" value="264357000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -857,7 +897,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22203948" sideWeight="0.4969743" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33552632" sideWeight="0.4969743" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.49394855" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35197368" sideWeight="0.4969743" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -868,7 +908,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.4969743" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24508321" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2980333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -926,11 +966,17 @@
           <properties />
           <option name="timeStamp" value="68" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/xc-service-ucenter/src/main/java/com/xuecheng/ucenter/UcenterApplication.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="95" />
+      <option name="time" value="96" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -939,43 +985,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/xc-service-manage-media/src/main/java/com/xuecheng/manage_media/controller/MediaFileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-learning/src/main/resources/logback-spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-456">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-manage-media/src/main/java/com/xuecheng/manage_media/service/MediaFileService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/learning/response/GetMediaResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-search/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1216">
-          <caret line="64" column="31" lean-forward="false" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/media/response/MediaCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -1247,7 +1256,7 @@
         <state relative-caret-position="123">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1297,8 +1306,8 @@
         <state relative-caret-position="722">
           <caret line="67" column="48" lean-forward="true" selection-start-line="67" selection-start-column="48" selection-end-line="67" selection-end-column="48" />
           <folding>
-            <element signature="e#2406#2736#0" expanded="true" />
-            <element signature="e#2735#2736#0" expanded="true" />
+            <element signature="e#2406#2736#0" expanded="false" />
+            <element signature="e#2735#2736#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1316,23 +1325,70 @@
         <state relative-caret-position="-62">
           <caret line="20" column="20" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-ucenter-auth/src/main/java/com/xuecheng/auth/service/UserDetailsServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/ucenter/XcMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="36" column="37" lean-forward="true" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+        <state relative-caret-position="126">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/ucenter/XcUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/ucenter/ext/XcUserExt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-ucenter/src/main/java/com/xuecheng/ucenter/UcenterApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding>
+            <element signature="e#1232#1233#0" expanded="true" />
+            <element signature="e#1310#1311#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-ucenter/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-ucenter-auth/src/main/java/com/xuecheng/auth/controller/AuthController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-781">
+          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2902#2903#0" expanded="true" />
+            <element signature="e#2929#2930#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xc-service-ucenter-auth/src/main/java/com/xuecheng/auth/service/AuthService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+        <state relative-caret-position="599">
+          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#applyToken#0;class#AuthService#0" expanded="false" />
@@ -1341,15 +1397,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-ucenter-auth/src/main/java/com/xuecheng/auth/controller/AuthController.java">
+    <entry file="file://$PROJECT_DIR$/xc-service-ucenter-auth/src/main/java/com/xuecheng/auth/service/UserDetailsServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="81" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2902#2903#0" expanded="true" />
-            <element signature="e#2929#2930#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="38">
+          <caret line="22" column="65" lean-forward="false" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="65" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1405,7 +1457,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>xc-service-ucenter-auth</last-edited>
+          <last-edited>xc-service-ucenter</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
