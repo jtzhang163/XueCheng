@@ -34,6 +34,7 @@ import java.util.concurrent.TimeUnit;
 @Service
 public class AuthService {
 
+
     @Value("${auth.tokenValiditySeconds}")
     int tokenValiditySeconds;
     @Autowired
@@ -124,10 +125,10 @@ public class AuthService {
 
             //获取spring security返回的错误信息
             String error_description = (String) bodyMap.get("error_description");
-            if(StringUtils.isNotEmpty(error_description)){
-                if(error_description.equals("坏的凭证")){
+            if (StringUtils.isNotEmpty(error_description)) {
+                if (error_description.equals("坏的凭证")) {
                     ExceptionCast.cast(AuthCode.AUTH_CREDENTIAL_ERROR);
-                }else if(error_description.indexOf("UserDetailsService returned null")>=0){
+                } else if (error_description.indexOf("UserDetailsService returned null") >= 0) {
                     ExceptionCast.cast(AuthCode.AUTH_ACCOUNT_NOTEXISTS);
                 }
             }
@@ -148,5 +149,22 @@ public class AuthService {
         //将串进行base64编码
         byte[] encode = Base64Utils.encode(string.getBytes());
         return "Basic " + new String(encode);
+    }
+
+    //从redis查询令牌
+    public AuthToken getUserToken(String token) {
+        String userToken = "user_token:" + token;
+        String userTokenString = stringRedisTemplate.opsForValue().get(userToken);
+        if (userToken != null) {
+            AuthToken authToken = null;
+            try {
+                authToken = JSON.parseObject(userTokenString, AuthToken.class);
+            } catch (Exception e) {
+                e.printStackTrace();
+                return null;
+            }
+            return authToken;
+        }
+        return null;
     }
 }

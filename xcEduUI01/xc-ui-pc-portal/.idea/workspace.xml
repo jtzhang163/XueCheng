@@ -3,15 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6440b44c-fdb5-455f-ab19-73f7ccd848f9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../xcEduService01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../xcEduService01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../xcEduService01/xc-framework-model/target/classes/com/xuecheng/framework/domain/ucenter/response/AuthCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../xcEduService01/xc-framework-model/target/classes/com/xuecheng/framework/domain/ucenter/response/AuthCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../xcEduService01/xc-service-ucenter-auth/src/main/java/com/xuecheng/auth/service/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../xcEduService01/xc-service-ucenter-auth/src/main/java/com/xuecheng/auth/service/UserDetailsServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../xcEduService01/xc-service-ucenter-auth/target/classes/com/xuecheng/auth/service/AuthService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../xcEduService01/xc-service-ucenter-auth/target/classes/com/xuecheng/auth/service/AuthService$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../xcEduService01/xc-service-ucenter-auth/target/classes/com/xuecheng/auth/service/AuthService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../xcEduService01/xc-service-ucenter-auth/target/classes/com/xuecheng/auth/service/AuthService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../xcEduService01/xc-service-ucenter-auth/target/classes/com/xuecheng/auth/service/UserDetailsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../xcEduService01/xc-service-ucenter-auth/target/classes/com/xuecheng/auth/service/UserDetailsServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../xcEduService01/xc-service-ucenter-auth/target/test-classes/com/xuecheng/auth/TestRedis.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../xcEduService01/xc-service-ucenter-auth/target/test-classes/com/xuecheng/auth/TestRedis.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../xcEduService01/xc-service-ucenter/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../xcEduService01/xc-service-ucenter/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../xcEduService01/xc-service-ucenter/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../xcEduService01/xc-service-ucenter/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xc-ui-pc-static-portal/include/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/../xc-ui-pc-static-portal/include/header.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -83,8 +77,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="9" />
-          <entry key="js" value="38" />
+          <entry key="html" value="10" />
+          <entry key="js" value="40" />
           <entry key="json" value="9" />
           <entry key="md" value="1" />
           <entry key="vue" value="25" />
@@ -92,15 +86,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="34" />
+          <entry key="HTML" value="35" />
           <entry key="JSON" value="9" />
-          <entry key="JavaScript" value="38" />
+          <entry key="JavaScript" value="40" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="5" />
+          <entry key="html" value="18" />
           <entry key="js" value="4" />
           <entry key="json" value="2" />
           <entry key="vue" value="360" />
@@ -108,7 +102,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="365" />
+          <entry key="HTML" value="378" />
           <entry key="JSON" value="2" />
           <entry key="JavaScript" value="4" />
         </counts>
@@ -116,7 +110,22 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../xc-ui-pc-leanring/src/module/home/router/index.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../xc-ui-pc-static-portal/include/header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="128" column="50" selection-start-line="128" selection-start-column="50" selection-end-line="128" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -153,6 +162,7 @@
         <option value="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/media/page/media_list.vue" />
         <option value="$PROJECT_DIR$/../xc-ui-pc-leanring/src/module/course/page/learning_video.vue" />
         <option value="$PROJECT_DIR$/../xc-ui-pc-static-portal/include/course_detail_dynamic.html" />
+        <option value="$PROJECT_DIR$/../xc-ui-pc-static-portal/include/header.html" />
       </list>
     </option>
   </component>
@@ -200,6 +210,17 @@
             <path>
               <item name="xc-ui-pc" type="b2602c69:ProjectViewProjectNode" />
               <item name="xc-ui-pc" type="47feb1d3:ProjectViewModuleNode" />
+            </path>
+            <path>
+              <item name="xc-ui-pc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xc-ui-pc" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="xc-ui-pc-static-portal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xc-ui-pc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xc-ui-pc" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="xc-ui-pc-static-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -322,23 +343,24 @@
       <workItem from="1584430418329" duration="7565000" />
       <workItem from="1584496280040" duration="8631000" />
       <workItem from="1584534350111" duration="6622000" />
-      <workItem from="1584576420068" duration="1517000" />
+      <workItem from="1584576420068" duration="3872000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60335000" />
+    <option name="totallyTimeSpent" value="62690000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.68099546" visible="true" weight="0.28422618" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.68099546" visible="true" weight="0.28422618" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.31900454" side_tool="true" visible="true" weight="0.28422618" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27422002" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27422002" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39901477" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -359,9 +381,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/middleware/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/public.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -487,11 +506,6 @@
     <entry file="file://$PROJECT_DIR$/../xc-ui-pc-leanring/src/module/course/page/course_list.vue">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../xc-ui-pc-leanring/src/module/home/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-383" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../xc-ui-pc-static-portal/test.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -521,13 +535,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
           <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../xc-ui-pc-static-portal/include/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -670,6 +677,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="874">
           <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../xc-ui-pc-leanring/src/module/home/router/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../xc-ui-pc-static-portal/js/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../xc-ui-pc-static-portal/include/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="128" column="50" selection-start-line="128" selection-start-column="50" selection-end-line="128" selection-end-column="50" />
         </state>
       </provider>
     </entry>
