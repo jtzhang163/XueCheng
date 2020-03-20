@@ -81,6 +81,13 @@ public class AuthService {
         return expire > 0;
     }
 
+    //删除token
+    public void delToken(String access_token) {
+        String key = "user_token:" + access_token;
+        stringRedisTemplate.delete(key);
+    }
+
+
     //申请令牌
     private AuthToken applyToken(String username, String password, String clientId, String clientSecret) {
         //从eureka中获取认证服务的地址（因为spring security在认证服务中）

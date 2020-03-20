@@ -76,12 +76,27 @@ public class AuthController implements AuthControllerApi {
         HttpServletResponse response = ((ServletRequestAttributes) RequestContextHolder.getRequestAttributes()).getResponse();
         //HttpServletResponse response,String domain,String path, String name, String value, int maxAge,boolean httpOnly
         CookieUtil.addCookie(response,cookieDomain,"/","uid",token,cookieMaxAge,false);
+    }
 
+    //将令牌从cookie删除
+    private void clearCookie(String token){
+
+        HttpServletResponse response = ((ServletRequestAttributes) RequestContextHolder.getRequestAttributes()).getResponse();
+        //HttpServletResponse response,String domain,String path, String name, String value, int maxAge,boolean httpOnly
+        CookieUtil.addCookie(response,cookieDomain,"/","uid",token,0,false);
     }
 
     @Override
+    @PostMapping("/userlogout")
     public ResponseResult logout() {
-        return null;
+
+        String uid = getTokenFormCookie();
+
+        authService.delToken(uid);
+
+        clearCookie(uid);
+
+        return new ResponseResult(CommonCode.SUCCESS);
     }
 
     @Override
