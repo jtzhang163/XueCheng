@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6440b44c-fdb5-455f-ab19-73f7ccd848f9" name="Default Changelist" comment="" />
+    <list default="true" id="6440b44c-fdb5-455f-ab19-73f7ccd848f9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../xcEduService01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../xcEduService01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../xcEduService01/xc-framework-model/target/classes/com/xuecheng/framework/domain/ucenter/response/AuthCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../xcEduService01/xc-framework-model/target/classes/com/xuecheng/framework/domain/ucenter/response/AuthCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../xcEduService01/xc-service-ucenter-auth/src/main/java/com/xuecheng/auth/service/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../xcEduService01/xc-service-ucenter-auth/src/main/java/com/xuecheng/auth/service/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../xcEduService01/xc-service-ucenter-auth/target/classes/com/xuecheng/auth/service/AuthService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../xcEduService01/xc-service-ucenter-auth/target/classes/com/xuecheng/auth/service/AuthService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../xcEduService01/xc-service-ucenter-auth/target/classes/com/xuecheng/auth/service/AuthService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../xcEduService01/xc-service-ucenter-auth/target/classes/com/xuecheng/auth/service/AuthService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../xcEduService01/xc-service-ucenter-auth/target/classes/com/xuecheng/auth/service/UserDetailsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../xcEduService01/xc-service-ucenter-auth/target/classes/com/xuecheng/auth/service/UserDetailsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../xcEduService01/xc-service-ucenter-auth/target/test-classes/com/xuecheng/auth/TestRedis.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../xcEduService01/xc-service-ucenter-auth/target/test-classes/com/xuecheng/auth/TestRedis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../xcEduService01/xc-service-ucenter/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../xcEduService01/xc-service-ucenter/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../xcEduService01/xc-service-ucenter/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../xcEduService01/xc-service-ucenter/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
