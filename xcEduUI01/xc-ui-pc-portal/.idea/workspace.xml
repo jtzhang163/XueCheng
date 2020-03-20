@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6440b44c-fdb5-455f-ab19-73f7ccd848f9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../xcEduService01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../xcEduService01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../xcEduService01/xc-service-ucenter-auth/src/main/java/com/xuecheng/auth/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../xcEduService01/xc-service-ucenter-auth/src/main/java/com/xuecheng/auth/controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../xcEduService01/xc-service-ucenter-auth/src/main/java/com/xuecheng/auth/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../xcEduService01/xc-service-ucenter-auth/src/main/java/com/xuecheng/auth/service/AuthService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../xcEduService01/xc-service-ucenter-auth/target/classes/com/xuecheng/auth/controller/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../xcEduService01/xc-service-ucenter-auth/target/classes/com/xuecheng/auth/controller/AuthController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../xcEduService01/xc-service-ucenter-auth/target/classes/com/xuecheng/auth/service/AuthService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../xcEduService01/xc-service-ucenter-auth/target/classes/com/xuecheng/auth/service/AuthService$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../xcEduService01/xc-service-ucenter-auth/target/classes/com/xuecheng/auth/service/AuthService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../xcEduService01/xc-service-ucenter-auth/target/classes/com/xuecheng/auth/service/AuthService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xc-ui-pc-static-portal/include/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/../xc-ui-pc-static-portal/include/header.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -186,7 +180,7 @@
       <path value="$PROJECT_DIR$/../xc-ui-pc-teach/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="210" />
     <option name="y" value="42" />
     <option name="width" value="932" />
