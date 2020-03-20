@@ -55,16 +55,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CategoryService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/service/CategoryService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CourseService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/service/CourseService.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -105,35 +95,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ManageCourseApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/ManageCourseApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xc-govern-gateway/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
+            <state relative-caret-position="570">
               <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginFilterTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoginFilterTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xc-govern-gateway/src/main/java/com/xuecheng/govern/gateway/filter/LoginFilterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+            <state relative-caret-position="179">
+              <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#927#928#0" expanded="true" />
-                <element signature="e#951#952#0" expanded="true" />
+                <element signature="e#929#930#0" expanded="true" />
+                <element signature="e#953#954#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xc-govern-gateway/src/main/java/com/xuecheng/govern/gateway/service/AuthService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="106">
+              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xc-govern-gateway/src/main/java/com/xuecheng/govern/gateway/filter/LoginFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1095#1096#0" expanded="true" />
+                <element signature="e#1119#1120#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -189,8 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/xc-service-manage-media/src/main/java/com/xuecheng/manage_media/controller/MediaUploadController.java" />
-        <option value="$PROJECT_DIR$/xc-service-manage-media-processor/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/xc-service-manage-media/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/media/MediaFileControllerApi.java" />
         <option value="$PROJECT_DIR$/xc-service-manage-media/src/main/java/com/xuecheng/manage_media/config/RabbitMQConfig.java" />
@@ -240,6 +244,8 @@
         <option value="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/config/ResourceServerConfig.java" />
         <option value="$PROJECT_DIR$/xc-govern-gateway/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/xc-govern-gateway/src/main/java/com/xuecheng/govern/gateway/filter/LoginFilterTest.java" />
+        <option value="$PROJECT_DIR$/xc-govern-gateway/src/main/java/com/xuecheng/govern/gateway/filter/LoginFilter.java" />
+        <option value="$PROJECT_DIR$/xc-govern-gateway/src/main/java/com/xuecheng/govern/gateway/service/AuthService.java" />
       </list>
     </option>
   </component>
@@ -392,6 +398,19 @@
               <item name="xc-govern-gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xuecheng" type="462c0819:PsiDirectoryNode" />
+              <item name="govern" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-govern-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -522,11 +541,11 @@
       <recent name="com.xuecheng.manage_cms.dao" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xuecheng.govern.gateway.filter" />
       <recent name="com.xuecheng.framework.domain.course" />
       <recent name="com.xuecheng.manage_course.dao" />
       <recent name="com.xuecheng.api.course" />
       <recent name="com.xuecheng.manage_cms.config" />
-      <recent name="com.xuecheng.manage_cms_client.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Java\projects\XueCheng\xcEduService01\xc-service-ucenter-auth\src\test\java" />
@@ -949,7 +968,7 @@
       <workItem from="1584432294429" duration="15047000" />
       <workItem from="1584534272964" duration="9504000" />
       <workItem from="1584576340115" duration="33270000" />
-      <workItem from="1584692491820" duration="8702000" />
+      <workItem from="1584692491820" duration="10215000" />
     </task>
     <servers />
   </component>
@@ -986,7 +1005,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="288122000" />
+    <option name="totallyTimeSpent" value="289635000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -999,7 +1018,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22039473" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
@@ -1010,7 +1028,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22039473" sideWeight="0.4969743" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3930921" sideWeight="0.4969743" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.49394855" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35197368" sideWeight="0.4969743" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1092,22 +1110,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/xc-service-manage-course/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="104" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/ucenter/request/LoginRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/ucenter/response/AuthCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1475,11 +1477,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xc-govern-gateway/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/xc-govern-gateway/src/main/java/com/xuecheng/govern/gateway/filter/LoginFilterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-          <folding />
+        <state relative-caret-position="179">
+          <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#929#930#0" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-govern-gateway/src/main/java/com/xuecheng/govern/gateway/filter/LoginFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1095#1096#0" expanded="true" />
+            <element signature="e#1119#1120#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1491,14 +1509,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xc-govern-gateway/src/main/java/com/xuecheng/govern/gateway/filter/LoginFilterTest.java">
+    <entry file="file://$PROJECT_DIR$/xc-govern-gateway/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        <state relative-caret-position="570">
+          <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-govern-gateway/src/main/java/com/xuecheng/govern/gateway/service/AuthService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#927#928#0" expanded="true" />
-            <element signature="e#951#952#0" expanded="true" />
           </folding>
         </state>
       </provider>
