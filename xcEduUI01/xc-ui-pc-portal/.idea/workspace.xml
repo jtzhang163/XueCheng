@@ -57,11 +57,12 @@
     <session id="1627309514">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.212" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.49" value="1" />
@@ -72,7 +73,7 @@
           <entry key="project.open.time.64" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.89" value="1" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -181,8 +182,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="210" />
-    <option name="y" value="42" />
+    <option name="x" value="217" />
+    <option name="y" value="34" />
     <option name="width" value="932" />
     <option name="height" value="601" />
   </component>
@@ -322,19 +323,20 @@
       <workItem from="1584534350111" duration="6622000" />
       <workItem from="1584576420068" duration="3872000" />
       <workItem from="1584691878441" duration="209000" />
-      <workItem from="1584692532864" duration="1356000" />
+      <workItem from="1584692532864" duration="1364000" />
+      <workItem from="1584756687732" duration="711000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64964000" />
+    <option name="totallyTimeSpent" value="65683000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.67494357" visible="true" weight="0.26190478" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6726862" visible="true" weight="0.26190478" />
       <window_info id="Structure" order="1" sideWeight="0.30366492" side_tool="true" weight="0.26190478" />
-      <window_info id="npm" order="2" sideWeight="0.32505643" side_tool="true" visible="true" weight="0.26190478" />
+      <window_info id="npm" order="2" sideWeight="0.32731378" side_tool="true" visible="true" weight="0.26190478" />
       <window_info id="Favorites" order="3" sideWeight="0.30366492" side_tool="true" weight="0.26190478" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3727422" />

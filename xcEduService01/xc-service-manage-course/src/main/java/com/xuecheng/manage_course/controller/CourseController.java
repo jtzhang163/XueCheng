@@ -11,6 +11,7 @@ import com.xuecheng.framework.model.response.QueryResponseResult;
 import com.xuecheng.framework.model.response.ResponseResult;
 import com.xuecheng.manage_course.service.CourseService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -20,6 +21,7 @@ public class CourseController implements CourseControllerApi {
     @Autowired
     private CourseService courseService;
 
+    @PreAuthorize("hasAuthority('course_find_list')")
     @Override
     @GetMapping("/teachplan/list/{courseId}")
     public TeachplanNode findTeachplanList(@PathVariable("courseId") String courseId) {
@@ -77,6 +79,7 @@ public class CourseController implements CourseControllerApi {
         return courseService.saveCoursePic(courseId,pic);
     }
 
+    @PreAuthorize("hasAuthority('course_find_pic')")
     @Override
     @GetMapping("/coursepic/list/{courseId}")
     public CoursePic findCoursePic(@PathVariable("courseId") String courseId) {
