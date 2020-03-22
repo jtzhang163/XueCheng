@@ -118,7 +118,7 @@ router.beforeEach((to, from, next) => {
 import axios from 'axios'
 import { Message } from 'element-ui';
 
-// 添加请求拦截器，实现http请求添加Authorization头信息
+//添加请求拦截器，实现http请求添加Authorization头信息
 axios.interceptors.request.use(function (config) {
   // 在发送请求向header添加jwt
   let jwt = utilApi.getJwt()
@@ -130,7 +130,7 @@ axios.interceptors.request.use(function (config) {
   return Promise.reject(error);
 });
 // 响应拦截
-/*axios.interceptors.response.use(data => {
+axios.interceptors.response.use(data => {
   console.log("data=")
   console.log(data)
   if(data && data.data){
@@ -148,7 +148,7 @@ axios.interceptors.request.use(function (config) {
     }
   }
   return data
-})*/
+})
 /*
  //axios请求超时设置
 axios.defaults.retry = 2;
