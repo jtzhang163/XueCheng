@@ -1,13 +1,17 @@
 package com.xuecheng.ucenter.service;
 
 import com.xuecheng.framework.domain.ucenter.XcCompanyUser;
+import com.xuecheng.framework.domain.ucenter.XcMenu;
 import com.xuecheng.framework.domain.ucenter.XcUser;
 import com.xuecheng.framework.domain.ucenter.ext.XcUserExt;
 import com.xuecheng.ucenter.dao.XcCompanyUserRepository;
+import com.xuecheng.ucenter.dao.XcMenuMapper;
 import com.xuecheng.ucenter.dao.XcUserRepository;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 @Service
 public class UserService {
@@ -16,6 +20,9 @@ public class UserService {
 
     @Autowired
     private XcCompanyUserRepository xcCompanyUserRepository;
+
+    @Autowired
+    private XcMenuMapper xcManuMapper;
 
     public XcUser findXcUserByUsername(String username) {
         return xcUserRepository.findXcUserByUsername(username);
@@ -38,6 +45,12 @@ public class UserService {
             String companyId = xcCompanyUser.getCompanyId();
             xcUserExt.setCompanyId(companyId);
         }
+
+        List<XcMenu> xcMenus = xcManuMapper.selectPermissionByUserId(userId);
+
+        xcUserExt.setPermissions(xcMenus);
+
+
         return xcUserExt;
     }
 }

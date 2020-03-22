@@ -17,8 +17,7 @@ import org.springframework.security.oauth2.provider.ClientDetails;
 import org.springframework.security.oauth2.provider.ClientDetailsService;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 @Service
 public class UserDetailsServiceImpl implements UserDetailsService {
@@ -55,7 +54,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
         }
 
         //userext.setPassword(new BCryptPasswordEncoder().encode("123"));
-        userext.setPermissions(new ArrayList<XcMenu>());
+        //userext.setPermissions(new ArrayList<XcMenu>());
 
         //取出正确密码（hash值）
         String password = userext.getPassword();
@@ -64,12 +63,15 @@ public class UserDetailsServiceImpl implements UserDetailsService {
         //用户权限，这里暂时使用静态数据，最终会从数据库读取
         //从数据库获取权限
         List<XcMenu> permissions = userext.getPermissions();
+        if(permissions == null){
+            permissions = new ArrayList<>();
+        }
         List<String> user_permission = new ArrayList<>();
         permissions.forEach(item-> user_permission.add(item.getCode()));
 
         //使用静态的权限表示用户所拥有的权限
-        user_permission.add("course_get_baseinfo");
-        user_permission.add("course_find_pic");
+//        user_permission.add("course_get_baseinfo");
+//        user_permission.add("course_find_pic");
         String user_permission_string  = StringUtils.join(user_permission.toArray(), ",");
         UserJwt userDetails = new UserJwt(username,
                 password,
