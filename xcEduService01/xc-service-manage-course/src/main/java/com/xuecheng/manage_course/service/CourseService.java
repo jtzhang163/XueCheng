@@ -155,11 +155,12 @@ public class CourseService {
 
     }
 
-    public QueryResponseResult findCourseList(int page, int size, CourseListRequest courseListRequest) {
+    public QueryResponseResult findCourseList(String companyId, int page, int size, CourseListRequest courseListRequest) {
 
         if (courseListRequest == null) {
             courseListRequest = new CourseListRequest();
         }
+        courseListRequest.setCompanyId(companyId);
 
         if (page <= 0) {
             page = 1;
@@ -169,7 +170,7 @@ public class CourseService {
         }
 
         PageHelper.startPage(page, size);
-        List<CourseInfo> courseInfos = courseMapper.findAll();
+        List<CourseInfo> courseInfos = courseMapper.findCourseListPage(courseListRequest);
 
         QueryResult<CourseInfo> queryResult = new QueryResult();
         queryResult.setList(courseInfos);
