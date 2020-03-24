@@ -1,8 +1,11 @@
 package com.xuecheng.order.service;
 
 import com.xuecheng.framework.domain.task.XcTask;
+import com.xuecheng.framework.domain.task.XcTaskHis;
+import com.xuecheng.order.dao.XcTaskHisRepository;
 import com.xuecheng.order.dao.XcTaskRepository;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -18,6 +21,8 @@ import java.util.Optional;
 public class TaskService {
     @Autowired
     XcTaskRepository xcTaskRepository;
+    @Autowired
+    XcTaskHisRepository xcTaskHisRepository;
     @Autowired
     RabbitTemplate rabbitTemplate;
 
@@ -48,6 +53,27 @@ public class TaskService {
             //更新任务时间为当前时间
             xcTask1.setUpdateTime(new Date());
             xcTaskRepository.save(xcTask1);
+        }
+    }
+
+    //>0表示取到任务
+    @Transactional
+    public int getTask(String taskId, int version) {
+        int count = xcTaskRepository.updateTaskVersion(taskId, version);
+        return count;
+    }
+
+    //完成任务
+    @Transactional
+    public void finishTask(String taskId){
+        Optional<XcTask> taskOptional = xcTaskRepository.findById(taskId);
+        if(taskOptional.isPresent()){
+            XcTask xcTask = taskOptional.get();
+            xcTask.setDeleteTime(new Date());
+            XcTaskHis xcTaskHis = new XcTaskHis();
+            BeanUtils.copyProperties(xcTask, xcTaskHis);
+            xcTaskHisRepository.save(xcTaskHis);
+            xcTaskRepository.delete(xcTask);
         }
     }
 }
