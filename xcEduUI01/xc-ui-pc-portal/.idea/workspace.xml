@@ -3,6 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="6440b44c-fdb5-455f-ab19-73f7ccd848f9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../xcEduService01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../xcEduService01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../xcEduService01/xc-service-manage-order/src/main/java/com/xuecheng/order/ManageOrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../xcEduService01/xc-service-manage-order/src/main/java/com/xuecheng/order/ManageOrderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../xcEduService01/xc-service-manage-order/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../xcEduService01/xc-service-manage-order/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../xcEduService01/xc-service-manage-order/target/classes/com/xuecheng/order/ManageOrderApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../xcEduService01/xc-service-manage-order/target/classes/com/xuecheng/order/ManageOrderApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../xcEduService01/xc-service-manage-order/target/classes/com/xuecheng/order/config/RabbitMQConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../xcEduService01/xc-service-manage-order/target/classes/com/xuecheng/order/config/RabbitMQConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../xcEduService01/xc-service-manage-order/xc-service-manage-order.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../xcEduService01/xc-service-manage-order/xc-service-manage-order.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -119,8 +125,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../xc-ui-pc-teach/src/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="149" column="13" lean-forward="true" selection-start-line="149" selection-start-column="13" selection-end-line="149" selection-end-column="13" />
+            <state relative-caret-position="323">
+              <caret line="148" column="3" lean-forward="true" selection-start-line="148" selection-start-column="3" selection-end-line="148" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -136,7 +142,7 @@
         <entry file="file://$PROJECT_DIR$/../xc-ui-pc-teach/src/base/api/system.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
-              <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -465,12 +471,12 @@
       <workItem from="1584692532864" duration="1364000" />
       <workItem from="1584756687732" duration="3780000" />
       <workItem from="1584922435918" duration="847000" />
-      <workItem from="1584923969186" duration="1704000" />
+      <workItem from="1584923969186" duration="2624000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71303000" />
+    <option name="totallyTimeSpent" value="72223000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -799,14 +805,14 @@
     <entry file="file://$PROJECT_DIR$/../xc-ui-pc-teach/src/base/api/system.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../xc-ui-pc-teach/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="149" column="13" lean-forward="true" selection-start-line="149" selection-start-column="13" selection-end-line="149" selection-end-column="13" />
+        <state relative-caret-position="323">
+          <caret line="148" column="3" lean-forward="true" selection-start-line="148" selection-start-column="3" selection-end-line="148" selection-end-column="3" />
         </state>
       </provider>
     </entry>
