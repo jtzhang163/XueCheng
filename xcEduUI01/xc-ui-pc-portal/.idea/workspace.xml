@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6440b44c-fdb5-455f-ab19-73f7ccd848f9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../xcEduService01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../xcEduService01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../xcEduService01/xc-service-manage-order/src/main/java/com/xuecheng/order/dao/XcTaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../xcEduService01/xc-service-manage-order/src/main/java/com/xuecheng/order/dao/XcTaskRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../xcEduService01/xc-service-manage-order/src/main/java/com/xuecheng/order/service/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../xcEduService01/xc-service-manage-order/src/main/java/com/xuecheng/order/service/TaskService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -58,7 +56,7 @@
     <session id="1627309514">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.212" value="1" />
           <entry key="project.open.time.34" value="1" />
@@ -186,7 +184,7 @@
       <path value="$PROJECT_DIR$/../xc-ui-pc-teach/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="217" />
     <option name="y" value="34" />
     <option name="width" value="932" />
@@ -441,15 +439,15 @@
       <workItem from="1584692532864" duration="1364000" />
       <workItem from="1584756687732" duration="3780000" />
       <workItem from="1584922435918" duration="847000" />
-      <workItem from="1584923969186" duration="3813000" />
+      <workItem from="1584923969186" duration="4414000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73412000" />
+    <option name="totallyTimeSpent" value="74013000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.768797" visible="true" weight="0.26190478" />
       <window_info id="Structure" order="1" sideWeight="0.30366492" side_tool="true" weight="0.26190478" />

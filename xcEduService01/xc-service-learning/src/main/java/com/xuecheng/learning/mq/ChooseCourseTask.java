@@ -28,8 +28,6 @@ public class ChooseCourseTask {
     @RabbitListener(queues = RabbitMQConfig.XC_LEARNING_ADDCHOOSECOURSE)
     public void receiveChoosecourseTask(XcTask xcTask) {
         //
-
-
         String body = xcTask.getRequestBody();
 
         Map map = JSON.parseObject(body, Map.class);
